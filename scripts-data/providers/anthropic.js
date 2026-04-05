@@ -9,56 +9,23 @@
  *   Pricing is maintained separately by Anthropic.
  */
 
+/**
+ * Real Anthropic model fetcher (clean JS version)
+ */
+
 const ANTHROPIC_MODELS_URL = "https://api.anthropic.com/v1/models";
 const ANTHROPIC_API_VERSION = "2023-06-01";
 const ANTHROPIC_SOURCE_URL = "https://docs.anthropic.com/en/api/models-list";
 
-type AnthropicApiModel = {
-  id: string;
-  display_name?: string;
-  created_at?: string;
-  max_input_tokens?: number;
-  max_tokens?: number;
-  capabilities?: {
-    batch?: { supported?: boolean };
-    citations?: { supported?: boolean };
-    code_execution?: { supported?: boolean };
-    image_input?: { supported?: boolean };
-    pdf_input?: { supported?: boolean };
-    structured_outputs?: { supported?: boolean };
-    thinking?: {
-      supported?: boolean;
-      types?: {
-        adaptive?: { supported?: boolean };
-        enabled?: { supported?: boolean };
-      };
-    };
-    effort?: {
-      high?: { supported?: boolean };
-      low?: { supported?: boolean };
-      medium?: { supported?: boolean };
-      max?: { supported?: boolean };
-      supported?: boolean;
-    };
-  };
-};
-
-type AnthropicModelsResponse = {
-  data: AnthropicApiModel[];
-  first_id?: string;
-  last_id?: string;
-  has_more?: boolean;
-};
-
-function pickSupported(value: unknown): boolean {
-  return Boolean((value as { supported?: boolean } | undefined)?.supported);
+function pickSupported(value) {
+  return Boolean(value && value.supported);
 }
 
 function toIsoNow() {
   return new Date().toISOString();
 }
 
-function normalizeAnthropicModel(model: AnthropicApiModel) {
+function normalizeAnthropicModel(model) {
   const vision = pickSupported(model.capabilities?.image_input);
   const pdf = pickSupported(model.capabilities?.pdf_input);
   const codeExecution = pickSupported(model.capabilities?.code_execution);
@@ -69,17 +36,19 @@ function normalizeAnthropicModel(model: AnthropicApiModel) {
   return {
     provider: "Anthropic",
     model_id: model.id,
-    model_name: model.display_name ?? model.id,
-    specialty: null, // keep honest; do not invent specialty from the API
-    context_window: model.max_input_tokens ?? null,
-    max_output_tokens: model.max_tokens ?? null,
+    model_name: model.display_name || model.id,
+
+    specialty: null,
+
+    context_window: model.max_input_tokens || null,
+    max_output_tokens: model.max_tokens || null,
 
     pricing: {
       type: "unknown",
       input_price_per_1m_tokens: null,
       output_price_per_1m_tokens: null,
       note:
-        "Anthropic pricing is maintained on the separate pricing page, not in the Models API.",
+        "Pricing is not provided by the Models API. Refer to Anthropic pricing page.",
       examples: [],
     },
 
@@ -89,7 +58,7 @@ function normalizeAnthropicModel(model: AnthropicApiModel) {
       tpm: null,
       rpd: null,
       note:
-        "Rate limits are not returned by the Models API. Keep them unknown unless fetched from a separate source.",
+        "Rate limits are not exposed via the Models API and depend on account tier.",
     },
 
     capabilities: {
@@ -98,7 +67,7 @@ function normalizeAnthropicModel(model: AnthropicApiModel) {
       audio: null,
       code: codeExecution,
       function_calling: structuredOutputs || codeExecution,
-      reasoning: thinking ? "high" : null,
+      reasoning_level: thinking ? "high" : null,
       citations,
       pdf_input: pdf,
       structured_outputs: structuredOutputs,
@@ -109,19 +78,18 @@ function normalizeAnthropicModel(model: AnthropicApiModel) {
     availability: "api",
     data_quality: "official",
     source_url: ANTHROPIC_SOURCE_URL,
-    last_updated: model.created_at ?? null,
+
+    last_updated: model.created_at || null,
     last_verified: toIsoNow(),
+
     notes:
-      "Official metadata from Anthropic's Models API. Pricing and rate limits are intentionally left unresolved.",
+      "Official metadata from Anthropic Models API. Pricing and rate limits not included.",
+
     raw: model,
   };
 }
 
-async function fetchAnthropicPage(
-  apiKey: string,
-  afterId?: string,
-  limit = 1000,
-): Promise<AnthropicModelsResponse> {
+async function fetchAnthropicPage(apiKey, afterId, limit = 1000) {
   const url = new URL(ANTHROPIC_MODELS_URL);
   url.searchParams.set("limit", String(limit));
   if (afterId) url.searchParams.set("after_id", afterId);
@@ -138,46 +106,44 @@ async function fetchAnthropicPage(
   if (!res.ok) {
     const body = await res.text().catch(() => "");
     throw new Error(
-      `Anthropic Models API failed (${res.status} ${res.statusText}): ${body.slice(0, 300)}`,
+      `Anthropic API failed (${res.status}): ${body.slice(0, 300)}`
     );
   }
 
-  return (await res.json()) as AnthropicModelsResponse;
+  return await res.json();
 }
 
 export async function fetchAnthropicModels() {
   const apiKey = process.env.ANTHROPIC_API_KEY;
+
   if (!apiKey) {
     throw new Error("Missing ANTHROPIC_API_KEY");
   }
 
-  const seenPages = new Set<string>();
-  const all: AnthropicApiModel[] = [];
+  const seenPages = new Set();
+  const all = [];
 
-  let afterId: string | undefined;
+  let afterId;
 
   while (true) {
     const page = await fetchAnthropicPage(apiKey, afterId, 1000);
 
-    if (Array.isArray(page.data) && page.data.length > 0) {
+    if (Array.isArray(page.data)) {
       all.push(...page.data);
     }
 
-    if (!page.has_more || !page.last_id) {
-      break;
-    }
+    if (!page.has_more || !page.last_id) break;
 
     if (seenPages.has(page.last_id)) {
-      throw new Error(
-        `Pagination loop detected at after_id=${page.last_id}. Aborting to avoid infinite loop.`,
-      );
+      throw new Error("Pagination loop detected");
     }
 
     seenPages.add(page.last_id);
     afterId = page.last_id;
   }
 
-  const unique = new Map<string, ReturnType<typeof normalizeAnthropicModel>>();
+  // 🔥 dedupe by model_id
+  const unique = new Map();
 
   for (const model of all) {
     const normalized = normalizeAnthropicModel(model);
