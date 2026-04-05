@@ -3,8 +3,8 @@ import { ExternalLink, BookmarkPlus, BookmarkCheck } from "lucide-react";
 import type { AIModel } from "@/types";
 import { CapabilityBadge } from "./CapabilityBadge";
 import { GlossaryTooltip, DataPointTooltip } from "./GlossaryTooltip";
-import { formatContextWindow, formatPrice, formatDate } from "@/utils/format";
-import { getDataQualityBadge, pricingHeadline } from "@/utils/modelMeta";
+import { formatContextWindow, formatPrice } from "@/utils/format";
+import { displayValue, getDataQualityBadge, pricingHeadline } from "@/utils/modelMeta";
 
 interface Props {
   model: AIModel;
@@ -24,8 +24,6 @@ const PROVIDER_COLORS: Record<string, string> = {
 export function ModelCard({ model, isComparing, onToggleCompare, compareDisabled }: Props) {
   const gradient = PROVIDER_COLORS[model.provider] ?? "from-muted/50 to-muted/20 border-border";
   const quality = getDataQualityBadge(model.data_quality);
-  const firstExample = model.pricing.examples[0];
-  const uncertainPricing = model.pricing.type === "provider-dependent" || model.pricing.type === "estimated";
 
   return (
     <div className={`relative group rounded-xl border bg-gradient-to-br ${gradient} p-4 flex flex-col gap-3 hover:shadow-md transition-all duration-200 ${isComparing ? "ring-2 ring-primary" : ""}`}>
@@ -36,7 +34,7 @@ export function ModelCard({ model, isComparing, onToggleCompare, compareDisabled
             <h3 className="font-semibold text-foreground hover:text-primary transition-colors truncate cursor-pointer">{model.model_name}</h3>
           </Link>
           <div className="mt-1 inline-flex items-center gap-2">
-            <DataPointTooltip label={<span className={`text-[10px] px-2 py-0.5 rounded-full border ${quality.className}`}>{quality.label}</span>} title="Data confidence" description={quality.tooltip} />
+            <span className={`text-[10px] px-2 py-0.5 rounded-full border ${quality.className}`}>{quality.label}</span>
             <span className="text-[10px] text-muted-foreground uppercase">{model.availability}</span>
           </div>
           <p className="text-xs text-muted-foreground mt-1 truncate">{model.specialty}</p>
@@ -48,7 +46,7 @@ export function ModelCard({ model, isComparing, onToggleCompare, compareDisabled
         )}
       </div>
 
-      <p className={`text-[11px] ${uncertainPricing ? "text-muted-foreground" : "text-foreground font-medium"}`}>Pricing: {pricingHeadline(model)}</p>
+      <p className="text-[11px] text-muted-foreground">{pricingHeadline(model)}</p>
 
       <div className="grid grid-cols-2 gap-2 text-xs">
         <div className="flex flex-col gap-0.5">
@@ -57,31 +55,23 @@ export function ModelCard({ model, isComparing, onToggleCompare, compareDisabled
         </div>
         <div className="flex flex-col gap-0.5">
           <span className="text-muted-foreground"><GlossaryTooltip term="input tokens" className="text-muted-foreground">Input</GlossaryTooltip></span>
-          <span className={uncertainPricing ? "text-muted-foreground" : "font-semibold text-foreground"}>
-            {model.pricing.input_price_per_1m_tokens != null
-              ? `${uncertainPricing ? "~ " : ""}${formatPrice(model.pricing.input_price_per_1m_tokens)}`
-              : "Not available"}
-          </span>
+          <span className="font-semibold text-foreground">{model.pricing.input_price_per_1m_tokens != null ? formatPrice(model.pricing.input_price_per_1m_tokens) : "Not available"}</span>
         </div>
         <div className="flex flex-col gap-0.5">
           <span className="text-muted-foreground"><GlossaryTooltip term="output tokens" className="text-muted-foreground">Output</GlossaryTooltip></span>
-          <span className={uncertainPricing ? "text-muted-foreground" : "font-semibold text-foreground"}>
-            {model.pricing.output_price_per_1m_tokens != null
-              ? `${uncertainPricing ? "~ " : ""}${formatPrice(model.pricing.output_price_per_1m_tokens)}`
-              : "Not available"}
-          </span>
+          <span className="font-semibold text-foreground">{model.pricing.output_price_per_1m_tokens != null ? formatPrice(model.pricing.output_price_per_1m_tokens) : "Not available"}</span>
         </div>
         <div className="flex flex-col gap-0.5">
           <span className="text-muted-foreground">
-            <DataPointTooltip label="RPM" title="Rate limit" description="Maximum API usage allowed per time window. Often varies by provider, account tier, and billing." className="text-muted-foreground" />
+            <DataPointTooltip label="RPM" title="Rate limit" description="Maximum allowed API usage per time window. Often depends on account tier and provider." className="text-muted-foreground" />
           </span>
-          <span className="text-muted-foreground">{model.rate_limits.type === "unknown" ? "Not publicly defined" : (model.rate_limits.rpm != null ? model.rate_limits.rpm.toLocaleString() : "Not available")}</span>
+          <span className="font-semibold text-foreground">{model.rate_limits.rpm != null ? model.rate_limits.rpm.toLocaleString() : "Not publicly defined"}</span>
         </div>
       </div>
 
-      {model.pricing.type === "provider-dependent" && firstExample && (
+      {model.pricing.type === "provider-dependent" && (
         <p className="text-[11px] text-muted-foreground">
-          Example ({firstExample.provider}): ~{formatPrice(firstExample.input)} in / ~{formatPrice(firstExample.output)} out
+          Varies by provider {model.pricing.example_providers?.length ? `(${model.pricing.example_providers.join(", ")})` : ""}
         </p>
       )}
 
@@ -97,7 +87,7 @@ export function ModelCard({ model, isComparing, onToggleCompare, compareDisabled
           </a>
         )}
       </div>
-      <p className="text-[10px] text-muted-foreground">Last verified: {model.last_verified ? formatDate(model.last_verified) : "Not available"}</p>
+      <p className="text-[10px] text-muted-foreground">Verified: {displayValue(model.last_verified, "Not available")}</p>
     </div>
   );
 }

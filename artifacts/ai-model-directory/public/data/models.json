@@ -788,22 +788,10 @@
       "note": "Open-source model pricing varies by host and deployment setup.",
       "input_price_per_1m_tokens": 0.23,
       "output_price_per_1m_tokens": 0.4,
-      "examples": [
-        {
-          "provider": "Together AI",
-          "input": 0.23,
-          "output": 0.4
-        },
-        {
-          "provider": "Fireworks",
-          "input": 0.23,
-          "output": 0.4
-        },
-        {
-          "provider": "Replicate",
-          "input": 0.23,
-          "output": 0.4
-        }
+      "example_providers": [
+        "Together AI",
+        "Fireworks",
+        "Replicate"
       ]
     },
     "rate_limits": {
@@ -841,22 +829,10 @@
       "note": "Open-source model pricing varies by host and deployment setup.",
       "input_price_per_1m_tokens": 1.2,
       "output_price_per_1m_tokens": 1.2,
-      "examples": [
-        {
-          "provider": "Together AI",
-          "input": 1.2,
-          "output": 1.2
-        },
-        {
-          "provider": "Fireworks",
-          "input": 1.2,
-          "output": 1.2
-        },
-        {
-          "provider": "Replicate",
-          "input": 1.2,
-          "output": 1.2
-        }
+      "example_providers": [
+        "Together AI",
+        "Fireworks",
+        "Replicate"
       ]
     },
     "rate_limits": {
@@ -894,22 +870,10 @@
       "note": "Open-source model pricing varies by host and deployment setup.",
       "input_price_per_1m_tokens": 5,
       "output_price_per_1m_tokens": 15,
-      "examples": [
-        {
-          "provider": "Together AI",
-          "input": 5,
-          "output": 15
-        },
-        {
-          "provider": "Fireworks",
-          "input": 5,
-          "output": 15
-        },
-        {
-          "provider": "Replicate",
-          "input": 5,
-          "output": 15
-        }
+      "example_providers": [
+        "Together AI",
+        "Fireworks",
+        "Replicate"
       ]
     },
     "rate_limits": {
@@ -1391,22 +1355,10 @@
       "note": "Open-source model pricing varies by host and deployment setup.",
       "input_price_per_1m_tokens": 0.1,
       "output_price_per_1m_tokens": 0.2,
-      "examples": [
-        {
-          "provider": "Together AI",
-          "input": 0.1,
-          "output": 0.2
-        },
-        {
-          "provider": "Fireworks",
-          "input": 0.1,
-          "output": 0.2
-        },
-        {
-          "provider": "Replicate",
-          "input": 0.1,
-          "output": 0.2
-        }
+      "example_providers": [
+        "Together AI",
+        "Fireworks",
+        "Replicate"
       ]
     },
     "rate_limits": {
@@ -1444,22 +1396,10 @@
       "note": "Open-source model pricing varies by host and deployment setup.",
       "input_price_per_1m_tokens": 3.5,
       "output_price_per_1m_tokens": 3.5,
-      "examples": [
-        {
-          "provider": "Together AI",
-          "input": 3.5,
-          "output": 3.5
-        },
-        {
-          "provider": "Fireworks",
-          "input": 3.5,
-          "output": 3.5
-        },
-        {
-          "provider": "Replicate",
-          "input": 3.5,
-          "output": 3.5
-        }
+      "example_providers": [
+        "Together AI",
+        "Fireworks",
+        "Replicate"
       ]
     },
     "rate_limits": {
@@ -1497,22 +1437,10 @@
       "note": "Open-source model pricing varies by host and deployment setup.",
       "input_price_per_1m_tokens": 0.16,
       "output_price_per_1m_tokens": 0.16,
-      "examples": [
-        {
-          "provider": "Together AI",
-          "input": 0.16,
-          "output": 0.16
-        },
-        {
-          "provider": "Fireworks",
-          "input": 0.16,
-          "output": 0.16
-        },
-        {
-          "provider": "Replicate",
-          "input": 0.16,
-          "output": 0.16
-        }
+      "example_providers": [
+        "Together AI",
+        "Fireworks",
+        "Replicate"
       ]
     },
     "rate_limits": {
@@ -1698,22 +1626,10 @@
       "note": "Open-source model pricing varies by host and deployment setup.",
       "input_price_per_1m_tokens": 0.03,
       "output_price_per_1m_tokens": 0.06,
-      "examples": [
-        {
-          "provider": "Together AI",
-          "input": 0.03,
-          "output": 0.06
-        },
-        {
-          "provider": "Fireworks",
-          "input": 0.03,
-          "output": 0.06
-        },
-        {
-          "provider": "Replicate",
-          "input": 0.03,
-          "output": 0.06
-        }
+      "example_providers": [
+        "Together AI",
+        "Fireworks",
+        "Replicate"
       ]
     },
     "rate_limits": {

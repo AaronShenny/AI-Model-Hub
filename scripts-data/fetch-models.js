@@ -61,12 +61,7 @@ function normalizeModelRecord(model) {
         : "Official pricing from provider documentation.",
       input_price_per_1m_tokens: model.pricing?.input_price_per_1m_tokens ?? null,
       output_price_per_1m_tokens: model.pricing?.output_price_per_1m_tokens ?? null,
-      examples: openSource && model.pricing?.input_price_per_1m_tokens != null && model.pricing?.output_price_per_1m_tokens != null
-        ? [
-            { provider: "Together AI", input: model.pricing.input_price_per_1m_tokens, output: model.pricing.output_price_per_1m_tokens },
-            { provider: "Fireworks", input: model.pricing.input_price_per_1m_tokens, output: model.pricing.output_price_per_1m_tokens },
-          ]
-        : [],
+      ...(openSource ? { example_providers: ["Together AI", "Fireworks", "Replicate"] } : {}),
     },
     rate_limits: {
       type: rateType,

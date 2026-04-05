@@ -13,41 +13,24 @@ function toReasoningLevel(raw: unknown): AIModel["capabilities"]["reasoning_leve
   return "low";
 }
 
-function normalizePricingExamples(model: any): PricingExample[] {
-  if (Array.isArray(model.pricing?.examples)) {
-    return model.pricing.examples.filter((e: any) => e?.provider && typeof e?.input === "number" && typeof e?.output === "number");
-  }
-
-  if (Array.isArray(model.pricing?.example_providers)) {
-    const input = model.pricing?.input_price_per_1m_tokens;
-    const output = model.pricing?.output_price_per_1m_tokens;
-    if (typeof input === "number" && typeof output === "number") {
-      return model.pricing.example_providers.map((provider: string) => ({ provider, input, output }));
-    }
-  }
-
-  return [];
-}
-
 function normalizeModel(model: any): AIModel {
-  const openSource = /llama|gemma|qwen|phi|mistral/i.test(`${model.model_name} ${model.model_id}`) || model.provider === "Meta";
-  const pricingType = model.pricing?.type ?? (openSource ? "provider-dependent" : "official");
+  const openSource = /llama|gemma/i.test(`${model.model_name} ${model.model_id}`);
 
   return {
     ...model,
     pricing: {
-      type: pricingType,
-      note: model.pricing?.note ?? (openSource ? "Pricing varies by host/provider and deployment." : "From official provider docs."),
+      type: model.pricing?.type ?? (openSource ? "provider-dependent" : "official"),
+      note: model.pricing?.note ?? (openSource ? "Pricing varies by hosting provider." : "From official provider docs."),
       input_price_per_1m_tokens: model.pricing?.input_price_per_1m_tokens ?? null,
       output_price_per_1m_tokens: model.pricing?.output_price_per_1m_tokens ?? null,
-      examples: normalizePricingExamples(model),
+      example_providers: model.pricing?.example_providers ?? (openSource ? ["Together AI", "Fireworks", "Replicate"] : undefined),
     },
     rate_limits: {
       type: model.rate_limits?.type ?? "unknown",
-      note: model.rate_limits?.note ?? "Varies by provider and account tier.",
-      rpm: model.rate_limits?.rpm ?? null,
-      tpm: model.rate_limits?.tpm ?? null,
-      rpd: model.rate_limits?.rpd ?? null,
+      note: model.rate_limits?.note ?? "Rate limits vary by provider, account tier, and billing.",
+      rpm: model.rate_limits?.type === "unknown" ? null : (model.rate_limits?.rpm ?? null),
+      tpm: model.rate_limits?.type === "unknown" ? null : (model.rate_limits?.tpm ?? null),
+      rpd: model.rate_limits?.type === "unknown" ? null : (model.rate_limits?.rpd ?? null),
     },
     capabilities: {
       ...model.capabilities,

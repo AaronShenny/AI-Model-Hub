@@ -4,18 +4,12 @@ export type ReasoningLevel = "low" | "medium" | "high";
 export type DataQuality = "official" | "estimated" | "community" | "unknown";
 export type Availability = "api" | "open-source" | "hosted";
 
-export interface PricingExample {
-  provider: string;
-  input: number;
-  output: number;
-}
-
 export interface ModelPricing {
   type: PricingType;
   note: string;
   input_price_per_1m_tokens: number | null;
   output_price_per_1m_tokens: number | null;
-  examples: PricingExample[];
+  example_providers?: string[];
 }
 
 export interface ModelRateLimits {
