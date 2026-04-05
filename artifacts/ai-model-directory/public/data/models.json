@@ -273,45 +273,6 @@
     "reviews": []
   },
   {
-    "id": "claude-3-7-sonnet",
-    "model_id": "claude-3-7-sonnet",
-    "model_name": "Claude 3.7 Sonnet",
-    "provider": "Anthropic",
-    "specialty": "Unverified",
-    "context_window": null,
-    "data_quality": "unknown",
-    "is_new": true,
-    "pricing": {
-      "type": "unknown",
-      "input_price_per_1m_tokens": null,
-      "output_price_per_1m_tokens": null,
-      "note": "Not yet verified"
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null,
-      "note": "Not publicly defined"
-    },
-    "capabilities": {
-      "text": false,
-      "vision": false,
-      "audio": false,
-      "code": false,
-      "function_calling": false,
-      "reasoning_level": "unknown"
-    },
-    "availability": "api",
-    "best_for": null,
-    "reasoning_level": "unknown",
-    "last_verified": "2026-04-05",
-    "source_url": null,
-    "last_updated": "2026-04-05",
-    "notes": "Auto-discovered model. Needs manual verification.",
-    "reviews": []
-  },
-  {
     "id": "claude-opus-4",
     "provider": "Anthropic",
     "model_name": "Claude Opus 4",
@@ -461,45 +422,6 @@
     "source_url": "https://docs.cohere.com/docs/models",
     "last_updated": "2026-04-05",
     "notes": "Lightweight RAG-optimized model",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05",
-    "is_new": false,
-    "reviews": []
-  },
-  {
-    "id": "command-r-plus",
-    "provider": "Cohere",
-    "model_name": "Command R+",
-    "model_id": "command-r-plus",
-    "specialty": "RAG and enterprise",
-    "context_window": 128000,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 2.5,
-      "output_price_per_1m_tokens": 10,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "RAG pipelines, enterprise search, long documents",
-    "source_url": "https://docs.cohere.com/docs/models",
-    "last_updated": "2026-04-05",
-    "notes": "Optimized for retrieval-augmented generation",
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
@@ -741,45 +663,6 @@
     "reviews": []
   },
   {
-    "id": "gemini-2.5-flash",
-    "model_id": "gemini-2.5-flash",
-    "model_name": "Gemini 2.5 Flash",
-    "provider": "Google",
-    "specialty": "Unverified",
-    "context_window": null,
-    "data_quality": "unknown",
-    "is_new": true,
-    "pricing": {
-      "type": "unknown",
-      "input_price_per_1m_tokens": null,
-      "output_price_per_1m_tokens": null,
-      "note": "Not yet verified"
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null,
-      "note": "Not publicly defined"
-    },
-    "capabilities": {
-      "text": false,
-      "vision": false,
-      "audio": false,
-      "code": false,
-      "function_calling": false,
-      "reasoning_level": "unknown"
-    },
-    "availability": "api",
-    "best_for": null,
-    "reasoning_level": "unknown",
-    "last_verified": "2026-04-05",
-    "source_url": null,
-    "last_updated": "2026-04-05",
-    "notes": "Auto-discovered model. Needs manual verification.",
-    "reviews": []
-  },
-  {
     "id": "gemini-2-5-pro",
     "provider": "Google",
     "model_name": "Gemini 2.5 Pro",
@@ -816,45 +699,6 @@
     "availability": "api",
     "last_verified": "2026-04-05",
     "is_new": false,
-    "reviews": []
-  },
-  {
-    "id": "gemini-2.5-pro",
-    "model_id": "gemini-2.5-pro",
-    "model_name": "Gemini 2.5 Pro",
-    "provider": "Google",
-    "specialty": "Unverified",
-    "context_window": null,
-    "data_quality": "unknown",
-    "is_new": true,
-    "pricing": {
-      "type": "unknown",
-      "input_price_per_1m_tokens": null,
-      "output_price_per_1m_tokens": null,
-      "note": "Not yet verified"
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null,
-      "note": "Not publicly defined"
-    },
-    "capabilities": {
-      "text": false,
-      "vision": false,
-      "audio": false,
-      "code": false,
-      "function_calling": false,
-      "reasoning_level": "unknown"
-    },
-    "availability": "api",
-    "best_for": null,
-    "reasoning_level": "unknown",
-    "last_verified": "2026-04-05",
-    "source_url": null,
-    "last_updated": "2026-04-05",
-    "notes": "Auto-discovered model. Needs manual verification.",
     "reviews": []
   },
   {
