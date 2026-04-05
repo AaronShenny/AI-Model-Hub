@@ -28,6 +28,8 @@ export default function Directory({ compareIds, onToggleCompare }: Props) {
   const [sort, setSort] = useState<SortOption>("provider");
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [viewMode, setViewMode] = useState<"grid" | "table">("grid");
+  const [useCase, setUseCase] = useState<"chatbot" | "coding" | "research">("chatbot");
+  const [priority, setPriority] = useState<"cheap" | "fast" | "powerful">("cheap");
 
   const providers = useMemo(() => [...new Set(models.map((m) => m.provider))].sort(), [models]);
   const specialties = useMemo(() => [...new Set(models.map((m) => m.specialty))].sort(), [models]);
@@ -89,6 +91,30 @@ export default function Directory({ compareIds, onToggleCompare }: Props) {
     return list;
   }, [models, filters, sort]);
 
+  const recommended = useMemo(() => {
+    const scoped = models.filter((m) => {
+      if (useCase === "coding") return m.capabilities.code;
+      if (useCase === "research") return m.capabilities.reasoning_level !== "low";
+      return m.capabilities.text;
+    });
+
+    const ranked = [...scoped].sort((a, b) => {
+      if (priority === "cheap") {
+        return (a.pricing.input_price_per_1m_tokens ?? Infinity) - (b.pricing.input_price_per_1m_tokens ?? Infinity);
+      }
+      if (priority === "fast") {
+        return (a.context_window ?? Infinity) - (b.context_window ?? Infinity);
+      }
+
+      const reasoningScore = { low: 1, medium: 2, high: 3 };
+      const aScore = reasoningScore[a.capabilities.reasoning_level] * 1_000_000 + (a.context_window ?? 0);
+      const bScore = reasoningScore[b.capabilities.reasoning_level] * 1_000_000 + (b.context_window ?? 0);
+      return bScore - aScore;
+    });
+
+    return ranked.slice(0, 3);
+  }, [models, useCase, priority]);
+
   if (error) {
     return (
       <div className="flex items-center justify-center min-h-64 text-destructive">
@@ -105,6 +131,29 @@ export default function Directory({ compareIds, onToggleCompare }: Props) {
           Explore {models.length > 0 ? `${models.length}+ ` : ""}AI models from the world's top providers.
           Compare pricing, capabilities, and context windows.
         </p>
+      </div>
+
+      <div className="mb-6 rounded-xl border border-border bg-card p-4">
+        <h2 className="font-semibold text-foreground">Recommended for you</h2>
+        <div className="mt-3 flex flex-wrap gap-3">
+          <select value={useCase} onChange={(e) => setUseCase(e.target.value as typeof useCase)} className="text-sm rounded-lg border border-border bg-background px-3 py-2 text-foreground">
+            <option value="chatbot">Use case: Chatbot</option>
+            <option value="coding">Use case: Coding</option>
+            <option value="research">Use case: Research</option>
+          </select>
+          <select value={priority} onChange={(e) => setPriority(e.target.value as typeof priority)} className="text-sm rounded-lg border border-border bg-background px-3 py-2 text-foreground">
+            <option value="cheap">Priority: Cheap</option>
+            <option value="fast">Priority: Fast</option>
+            <option value="powerful">Priority: Powerful</option>
+          </select>
+        </div>
+        <div className="mt-3 flex flex-wrap gap-2">
+          {recommended.map((m) => (
+            <Link key={m.id} href={`/model/${m.id}`} className="text-xs px-2 py-1 rounded-full border border-border bg-muted/30 hover:bg-muted text-foreground">
+              {m.model_name}
+            </Link>
+          ))}
+        </div>
       </div>
 
       <div className="flex flex-col sm:flex-row gap-3 mb-6">

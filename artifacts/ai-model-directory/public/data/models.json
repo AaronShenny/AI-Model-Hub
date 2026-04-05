@@ -10,7 +10,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 2.5,
-      "output_price_per_1m_tokens": 10
+      "output_price_per_1m_tokens": 10,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -46,7 +47,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.15,
-      "output_price_per_1m_tokens": 0.6
+      "output_price_per_1m_tokens": 0.6,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -82,7 +84,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 15,
-      "output_price_per_1m_tokens": 60
+      "output_price_per_1m_tokens": 60,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -118,7 +121,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 3,
-      "output_price_per_1m_tokens": 12
+      "output_price_per_1m_tokens": 12,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -154,7 +158,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 1.1,
-      "output_price_per_1m_tokens": 4.4
+      "output_price_per_1m_tokens": 4.4,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -190,7 +195,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 10,
-      "output_price_per_1m_tokens": 30
+      "output_price_per_1m_tokens": 30,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -226,7 +232,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 15,
-      "output_price_per_1m_tokens": 75
+      "output_price_per_1m_tokens": 75,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -262,7 +269,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 3,
-      "output_price_per_1m_tokens": 15
+      "output_price_per_1m_tokens": 15,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -298,7 +306,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 3,
-      "output_price_per_1m_tokens": 15
+      "output_price_per_1m_tokens": 15,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -334,7 +343,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 3,
-      "output_price_per_1m_tokens": 15
+      "output_price_per_1m_tokens": 15,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -370,7 +380,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.8,
-      "output_price_per_1m_tokens": 4
+      "output_price_per_1m_tokens": 4,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -406,7 +417,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 15,
-      "output_price_per_1m_tokens": 75
+      "output_price_per_1m_tokens": 75,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -442,7 +454,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 1.25,
-      "output_price_per_1m_tokens": 10
+      "output_price_per_1m_tokens": 10,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -478,7 +491,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.15,
-      "output_price_per_1m_tokens": 0.6
+      "output_price_per_1m_tokens": 0.6,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -514,7 +528,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.1,
-      "output_price_per_1m_tokens": 0.4
+      "output_price_per_1m_tokens": 0.4,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -550,7 +565,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 1.25,
-      "output_price_per_1m_tokens": 5
+      "output_price_per_1m_tokens": 5,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -586,7 +602,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.075,
-      "output_price_per_1m_tokens": 0.3
+      "output_price_per_1m_tokens": 0.3,
+      "examples": []
     },
     "rate_limits": {
       "type": "tier-based",
@@ -622,7 +639,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 2,
-      "output_price_per_1m_tokens": 6
+      "output_price_per_1m_tokens": 6,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -658,7 +676,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.1,
-      "output_price_per_1m_tokens": 0.3
+      "output_price_per_1m_tokens": 0.3,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -694,7 +713,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.15,
-      "output_price_per_1m_tokens": 0.15
+      "output_price_per_1m_tokens": 0.15,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -730,7 +750,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.3,
-      "output_price_per_1m_tokens": 0.9
+      "output_price_per_1m_tokens": 0.9,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -889,7 +910,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.27,
-      "output_price_per_1m_tokens": 1.1
+      "output_price_per_1m_tokens": 1.1,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -925,7 +947,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.55,
-      "output_price_per_1m_tokens": 2.19
+      "output_price_per_1m_tokens": 2.19,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -961,7 +984,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 2.5,
-      "output_price_per_1m_tokens": 10
+      "output_price_per_1m_tokens": 10,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -997,7 +1021,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.15,
-      "output_price_per_1m_tokens": 0.6
+      "output_price_per_1m_tokens": 0.6,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -1033,7 +1058,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 3,
-      "output_price_per_1m_tokens": 15
+      "output_price_per_1m_tokens": 15,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -1069,7 +1095,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.3,
-      "output_price_per_1m_tokens": 0.5
+      "output_price_per_1m_tokens": 0.5,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -1105,7 +1132,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 3,
-      "output_price_per_1m_tokens": 15
+      "output_price_per_1m_tokens": 15,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -1141,7 +1169,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 1,
-      "output_price_per_1m_tokens": 1
+      "output_price_per_1m_tokens": 1,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -1177,7 +1206,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.12,
-      "output_price_per_1m_tokens": 0.18
+      "output_price_per_1m_tokens": 0.18,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -1213,7 +1243,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.23,
-      "output_price_per_1m_tokens": 0.4
+      "output_price_per_1m_tokens": 0.4,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -1249,7 +1280,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.07,
-      "output_price_per_1m_tokens": 0.16
+      "output_price_per_1m_tokens": 0.16,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -1285,7 +1317,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.07,
-      "output_price_per_1m_tokens": 0.14
+      "output_price_per_1m_tokens": 0.14,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -1444,7 +1477,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 2,
-      "output_price_per_1m_tokens": 10
+      "output_price_per_1m_tokens": 10,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -1480,7 +1514,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 2,
-      "output_price_per_1m_tokens": 8
+      "output_price_per_1m_tokens": 8,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -1516,7 +1551,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 1.2,
-      "output_price_per_1m_tokens": 1.2
+      "output_price_per_1m_tokens": 1.2,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -1552,7 +1588,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.03,
-      "output_price_per_1m_tokens": 0.1
+      "output_price_per_1m_tokens": 0.1,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",
@@ -1629,7 +1666,8 @@
       "type": "official",
       "note": "Published by the official API provider.",
       "input_price_per_1m_tokens": 0.1,
-      "output_price_per_1m_tokens": null
+      "output_price_per_1m_tokens": null,
+      "examples": []
     },
     "rate_limits": {
       "type": "unknown",

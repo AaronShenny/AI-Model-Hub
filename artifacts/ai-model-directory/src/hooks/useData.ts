@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import type { AIModel, Provider, GlossaryEntry } from "@/types";
+import type { AIModel, Provider, GlossaryEntry, PricingExample } from "@/types";
 
 const BASE = import.meta.env.BASE_URL;
 
