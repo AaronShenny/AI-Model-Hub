@@ -15,7 +15,7 @@ const CAPABILITIES = [
   "audio",
   "code",
   "function_calling",
-  "reasoning",
+  "reasoning_level",
 ];
 
 const CAP_LABELS: Record<string, string> = {
@@ -24,7 +24,7 @@ const CAP_LABELS: Record<string, string> = {
   audio: "Audio",
   code: "Code",
   function_calling: "Function Calling",
-  reasoning: "Reasoning",
+  reasoning_level: "Reasoning (medium/high)",
 };
 
 export function FilterPanel({ filters, onChange, providers, specialties, onClear }: Props) {

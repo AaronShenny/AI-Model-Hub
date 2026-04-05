@@ -52,8 +52,10 @@ export default function Directory({ compareIds, onToggleCompare }: Props) {
 
     if (filters.capabilities.length > 0) {
       list = list.filter((m) =>
-        filters.capabilities.every(
-          (cap) => m.capabilities[cap as keyof typeof m.capabilities]
+        filters.capabilities.every((cap) =>
+          cap === "reasoning_level"
+            ? m.capabilities.reasoning_level !== "low"
+            : Boolean(m.capabilities[cap as keyof typeof m.capabilities])
         )
       );
     }
@@ -271,17 +273,17 @@ export default function Directory({ compareIds, onToggleCompare }: Props) {
                         </td>
                         <td className="px-4 py-3 text-muted-foreground">{model.provider}</td>
                         <td className="px-4 py-3 font-medium">
-                          {model.context_window ? formatContextWindow(model.context_window) : "—"}
+                          {model.context_window ? formatContextWindow(model.context_window) : "Not available"}
                         </td>
                         <td className="px-4 py-3">
                           {model.pricing.input_price_per_1m_tokens != null
                             ? formatPrice(model.pricing.input_price_per_1m_tokens)
-                            : "—"}
+                            : "Not available"}
                         </td>
                         <td className="px-4 py-3">
                           {model.pricing.output_price_per_1m_tokens != null
                             ? formatPrice(model.pricing.output_price_per_1m_tokens)
-                            : "—"}
+                            : "Not available"}
                         </td>
                         <td className="px-4 py-3">
                           <CapabilityBadge capabilities={model.capabilities} compact />
