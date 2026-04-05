@@ -14,7 +14,7 @@ interface Props {
 
 export default function ModelDetail({ compareIds, onToggleCompare }: Props) {
   const params = useParams<{ id: string }>();
-  const { models, loading } = useModels();
+  const { models, loading, refetchModels } = useModels();
 
   const model = models.find((m) => m.id === params.id);
   const isComparing = compareIds.includes(params.id ?? "");
@@ -111,7 +111,12 @@ export default function ModelDetail({ compareIds, onToggleCompare }: Props) {
 
       {model.notes && <div className="rounded-xl border border-border bg-card p-5"><h2 className="font-semibold text-foreground mb-2">Notes</h2><p className="text-sm text-muted-foreground">{model.notes}</p></div>}
 
-      <ReviewSection modelId={model.id} modelName={model.model_name} />
+      <ReviewSection
+        modelId={model.model_id}
+        modelName={model.model_name}
+        reviews={model.reviews}
+        onRefetchModels={refetchModels}
+      />
     </div>
   );
 }
