@@ -1,1238 +1,5 @@
 [
   {
-    "id": "gpt-4o",
-    "provider": "OpenAI",
-    "model_name": "GPT-4o",
-    "model_id": "gpt-4o",
-    "specialty": "Multimodal flagship",
-    "context_window": 128000,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 2.5,
-      "output_price_per_1m_tokens": 10,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": true,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "General-purpose tasks requiring vision, audio, and text",
-    "source_url": "https://platform.openai.com/docs/models",
-    "last_updated": "2026-04-05",
-    "notes": "OpenAI's flagship multimodal model",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "gpt-4o-mini",
-    "provider": "OpenAI",
-    "model_name": "GPT-4o mini",
-    "model_id": "gpt-4o-mini",
-    "specialty": "Small multimodal",
-    "context_window": 128000,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 0.15,
-      "output_price_per_1m_tokens": 0.6,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Cost-efficient, fast tasks with vision support",
-    "source_url": "https://platform.openai.com/docs/models",
-    "last_updated": "2026-04-05",
-    "notes": "Most affordable OpenAI model with vision",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "o1",
-    "provider": "OpenAI",
-    "model_name": "o1",
-    "model_id": "o1",
-    "specialty": "Reasoning",
-    "context_window": 200000,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 15,
-      "output_price_per_1m_tokens": 60,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "high"
-    },
-    "best_for": "Complex reasoning, math, science, coding",
-    "source_url": "https://platform.openai.com/docs/models",
-    "last_updated": "2026-04-05",
-    "notes": "OpenAI's most powerful reasoning model",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "o1-mini",
-    "provider": "OpenAI",
-    "model_name": "o1-mini",
-    "model_id": "o1-mini",
-    "specialty": "Reasoning (lightweight)",
-    "context_window": 128000,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 3,
-      "output_price_per_1m_tokens": 12,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": false,
-      "reasoning_level": "high"
-    },
-    "best_for": "Faster, cheaper reasoning for STEM tasks",
-    "source_url": "https://platform.openai.com/docs/models",
-    "last_updated": "2026-04-05",
-    "notes": "Compact reasoning model",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "o3-mini",
-    "provider": "OpenAI",
-    "model_name": "o3-mini",
-    "model_id": "o3-mini",
-    "specialty": "Reasoning (fast)",
-    "context_window": 200000,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 1.1,
-      "output_price_per_1m_tokens": 4.4,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "high"
-    },
-    "best_for": "Fast reasoning at lower cost",
-    "source_url": "https://platform.openai.com/docs/models",
-    "last_updated": "2026-04-05",
-    "notes": "Efficient reasoning model in the o3 family",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "gpt-4-turbo",
-    "provider": "OpenAI",
-    "model_name": "GPT-4 Turbo",
-    "model_id": "gpt-4-turbo",
-    "specialty": "Large language model",
-    "context_window": 128000,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 10,
-      "output_price_per_1m_tokens": 30,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "High-quality tasks requiring large context",
-    "source_url": "https://platform.openai.com/docs/models",
-    "last_updated": "2026-04-05",
-    "notes": "Older GPT-4 variant with vision",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "claude-opus-4",
-    "provider": "Anthropic",
-    "model_name": "Claude Opus 4",
-    "model_id": "claude-opus-4-5",
-    "specialty": "Flagship intelligence",
-    "context_window": 200000,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 15,
-      "output_price_per_1m_tokens": 75,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "high"
-    },
-    "best_for": "Complex research, analysis, and writing",
-    "source_url": "https://docs.anthropic.com/en/docs/models-overview",
-    "last_updated": "2026-04-05",
-    "notes": "Anthropic's most capable model",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "claude-sonnet-4",
-    "provider": "Anthropic",
-    "model_name": "Claude Sonnet 4",
-    "model_id": "claude-sonnet-4-5",
-    "specialty": "Balanced performance",
-    "context_window": 200000,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 3,
-      "output_price_per_1m_tokens": 15,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "high"
-    },
-    "best_for": "Balanced intelligence and speed for complex tasks",
-    "source_url": "https://docs.anthropic.com/en/docs/models-overview",
-    "last_updated": "2026-04-05",
-    "notes": "Strong middle-tier model with extended thinking",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "claude-3-7-sonnet",
-    "provider": "Anthropic",
-    "model_name": "Claude 3.7 Sonnet",
-    "model_id": "claude-3-7-sonnet-20250219",
-    "specialty": "Hybrid reasoning",
-    "context_window": 200000,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 3,
-      "output_price_per_1m_tokens": 15,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "high"
-    },
-    "best_for": "Coding, data science, complex reasoning",
-    "source_url": "https://docs.anthropic.com/en/docs/models-overview",
-    "last_updated": "2026-04-05",
-    "notes": "Hybrid reasoning model with extended thinking capability",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "claude-3-5-sonnet",
-    "provider": "Anthropic",
-    "model_name": "Claude 3.5 Sonnet",
-    "model_id": "claude-3-5-sonnet-20241022",
-    "specialty": "General intelligence",
-    "context_window": 200000,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 3,
-      "output_price_per_1m_tokens": 15,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Writing, analysis, coding, vision tasks",
-    "source_url": "https://docs.anthropic.com/en/docs/models-overview",
-    "last_updated": "2026-04-05",
-    "notes": "Widely used capable model",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "claude-3-5-haiku",
-    "provider": "Anthropic",
-    "model_name": "Claude 3.5 Haiku",
-    "model_id": "claude-3-5-haiku-20241022",
-    "specialty": "Fast and affordable",
-    "context_window": 200000,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 0.8,
-      "output_price_per_1m_tokens": 4,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "High-speed, cost-efficient tasks",
-    "source_url": "https://docs.anthropic.com/en/docs/models-overview",
-    "last_updated": "2026-04-05",
-    "notes": "Fastest Claude model",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "claude-3-opus",
-    "provider": "Anthropic",
-    "model_name": "Claude 3 Opus",
-    "model_id": "claude-3-opus-20240229",
-    "specialty": "Powerful analysis",
-    "context_window": 200000,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 15,
-      "output_price_per_1m_tokens": 75,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Complex analysis, nuanced tasks",
-    "source_url": "https://docs.anthropic.com/en/docs/models-overview",
-    "last_updated": "2026-04-05",
-    "notes": "Original flagship Claude 3 model",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "gemini-2-5-pro",
-    "provider": "Google",
-    "model_name": "Gemini 2.5 Pro",
-    "model_id": "gemini-2.5-pro-preview-06-05",
-    "specialty": "Flagship multimodal",
-    "context_window": 1048576,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 1.25,
-      "output_price_per_1m_tokens": 10,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": true,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "high"
-    },
-    "best_for": "Massive context, complex reasoning, multimodal tasks",
-    "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini",
-    "last_updated": "2026-04-05",
-    "notes": "Google's most capable model with 1M token context",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "gemini-2-5-flash",
-    "provider": "Google",
-    "model_name": "Gemini 2.5 Flash",
-    "model_id": "gemini-2.5-flash-preview-05-20",
-    "specialty": "Fast multimodal",
-    "context_window": 1048576,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 0.15,
-      "output_price_per_1m_tokens": 0.6,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": true,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "high"
-    },
-    "best_for": "Speed-sensitive tasks with large context and thinking",
-    "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini",
-    "last_updated": "2026-04-05",
-    "notes": "Fast with thinking mode and 1M token context",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "gemini-2-0-flash",
-    "provider": "Google",
-    "model_name": "Gemini 2.0 Flash",
-    "model_id": "gemini-2.0-flash",
-    "specialty": "Multimodal fast",
-    "context_window": 1048576,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 0.1,
-      "output_price_per_1m_tokens": 0.4,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": true,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Real-time applications, live streaming, agentic tasks",
-    "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini",
-    "last_updated": "2026-04-05",
-    "notes": "Supports image/video/audio generation",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "gemini-1-5-pro",
-    "provider": "Google",
-    "model_name": "Gemini 1.5 Pro",
-    "model_id": "gemini-1.5-pro",
-    "specialty": "Long context",
-    "context_window": 2097152,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 1.25,
-      "output_price_per_1m_tokens": 5,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": true,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Processing very long documents, video, audio files",
-    "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini",
-    "last_updated": "2026-04-05",
-    "notes": "Holds the record for largest context window",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "gemini-1-5-flash",
-    "provider": "Google",
-    "model_name": "Gemini 1.5 Flash",
-    "model_id": "gemini-1.5-flash",
-    "specialty": "Efficient multimodal",
-    "context_window": 1048576,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 0.075,
-      "output_price_per_1m_tokens": 0.3,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": true,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Fast, affordable multimodal tasks at scale",
-    "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini",
-    "last_updated": "2026-04-05",
-    "notes": "Most cost-efficient Gemini model",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "mistral-large-2",
-    "provider": "Mistral",
-    "model_name": "Mistral Large 2",
-    "model_id": "mistral-large-latest",
-    "specialty": "General purpose",
-    "context_window": 131072,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 2,
-      "output_price_per_1m_tokens": 6,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Multilingual tasks, reasoning, function calling",
-    "source_url": "https://docs.mistral.ai/getting-started/models/",
-    "last_updated": "2026-04-05",
-    "notes": "Mistral's flagship model with 128K context",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "mistral-small-3",
-    "provider": "Mistral",
-    "model_name": "Mistral Small 3",
-    "model_id": "mistral-small-latest",
-    "specialty": "Efficient small model",
-    "context_window": 32768,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 0.1,
-      "output_price_per_1m_tokens": 0.3,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Fast, cost-effective tasks",
-    "source_url": "https://docs.mistral.ai/getting-started/models/",
-    "last_updated": "2026-04-05",
-    "notes": "Lightweight but powerful",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "mistral-nemo",
-    "provider": "Mistral",
-    "model_name": "Mistral NeMo",
-    "model_id": "open-mistral-nemo",
-    "specialty": "Open efficient model",
-    "context_window": 131072,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 0.15,
-      "output_price_per_1m_tokens": 0.15,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Efficient multilingual tasks on Mistral API",
-    "source_url": "https://docs.mistral.ai/getting-started/models/",
-    "last_updated": "2026-04-05",
-    "notes": "12B open model co-developed with NVIDIA",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "codestral",
-    "provider": "Mistral",
-    "model_name": "Codestral",
-    "model_id": "codestral-latest",
-    "specialty": "Code generation",
-    "context_window": 262144,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 0.3,
-      "output_price_per_1m_tokens": 0.9,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": false,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Code completion, generation, and fill-in-the-middle",
-    "source_url": "https://docs.mistral.ai/getting-started/models/",
-    "last_updated": "2026-04-05",
-    "notes": "Specialized coding model from Mistral",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "llama-3-3-70b",
-    "provider": "Meta",
-    "model_name": "Llama 3.3 70B",
-    "model_id": "meta-llama/Llama-3.3-70B-Instruct",
-    "specialty": "Open-source LLM",
-    "context_window": 128000,
-    "pricing": {
-      "type": "provider-dependent",
-      "note": "Open-source model pricing varies by host and deployment setup.",
-      "input_price_per_1m_tokens": 0.23,
-      "output_price_per_1m_tokens": 0.4,
-      "example_providers": [
-        "Together AI",
-        "Fireworks",
-        "Replicate"
-      ]
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "General purpose open-source tasks",
-    "source_url": "https://llama.meta.com/",
-    "last_updated": "2026-04-05",
-    "notes": "Best open-source 70B model",
-    "data_quality": "community",
-    "availability": "open-source",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "llama-3-2-90b-vision",
-    "provider": "Meta",
-    "model_name": "Llama 3.2 90B Vision",
-    "model_id": "meta-llama/Llama-3.2-90B-Vision-Instruct",
-    "specialty": "Multimodal open-source",
-    "context_window": 128000,
-    "pricing": {
-      "type": "provider-dependent",
-      "note": "Open-source model pricing varies by host and deployment setup.",
-      "input_price_per_1m_tokens": 1.2,
-      "output_price_per_1m_tokens": 1.2,
-      "example_providers": [
-        "Together AI",
-        "Fireworks",
-        "Replicate"
-      ]
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": false,
-      "code": true,
-      "function_calling": false,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Open-source vision tasks",
-    "source_url": "https://llama.meta.com/",
-    "last_updated": "2026-04-05",
-    "notes": "Meta's largest multimodal open-source model",
-    "data_quality": "community",
-    "availability": "open-source",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "llama-3-1-405b",
-    "provider": "Meta",
-    "model_name": "Llama 3.1 405B",
-    "model_id": "meta-llama/Meta-Llama-3.1-405B-Instruct",
-    "specialty": "Flagship open-source",
-    "context_window": 128000,
-    "pricing": {
-      "type": "provider-dependent",
-      "note": "Open-source model pricing varies by host and deployment setup.",
-      "input_price_per_1m_tokens": 5,
-      "output_price_per_1m_tokens": 15,
-      "example_providers": [
-        "Together AI",
-        "Fireworks",
-        "Replicate"
-      ]
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Maximum capability open-source tasks",
-    "source_url": "https://llama.meta.com/",
-    "last_updated": "2026-04-05",
-    "notes": "Meta's largest text-only model",
-    "data_quality": "community",
-    "availability": "open-source",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "deepseek-v3",
-    "provider": "DeepSeek",
-    "model_name": "DeepSeek V3",
-    "model_id": "deepseek-chat",
-    "specialty": "General purpose",
-    "context_window": 131072,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 0.27,
-      "output_price_per_1m_tokens": 1.1,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "General coding, analysis, and reasoning tasks",
-    "source_url": "https://platform.deepseek.com/",
-    "last_updated": "2026-04-05",
-    "notes": "671B MoE model, extremely cost-efficient",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "deepseek-r1",
-    "provider": "DeepSeek",
-    "model_name": "DeepSeek R1",
-    "model_id": "deepseek-reasoner",
-    "specialty": "Reasoning",
-    "context_window": 131072,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 0.55,
-      "output_price_per_1m_tokens": 2.19,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": false,
-      "reasoning_level": "high"
-    },
-    "best_for": "Math, science, and complex reasoning",
-    "source_url": "https://platform.deepseek.com/",
-    "last_updated": "2026-04-05",
-    "notes": "DeepSeek's reasoning model, competitive with o1",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "command-r-plus",
-    "provider": "Cohere",
-    "model_name": "Command R+",
-    "model_id": "command-r-plus",
-    "specialty": "RAG and enterprise",
-    "context_window": 128000,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 2.5,
-      "output_price_per_1m_tokens": 10,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "RAG pipelines, enterprise search, long documents",
-    "source_url": "https://docs.cohere.com/docs/models",
-    "last_updated": "2026-04-05",
-    "notes": "Optimized for retrieval-augmented generation",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "command-r",
-    "provider": "Cohere",
-    "model_name": "Command R",
-    "model_id": "command-r",
-    "specialty": "RAG-optimized",
-    "context_window": 128000,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 0.15,
-      "output_price_per_1m_tokens": 0.6,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Efficient RAG tasks and document analysis",
-    "source_url": "https://docs.cohere.com/docs/models",
-    "last_updated": "2026-04-05",
-    "notes": "Lightweight RAG-optimized model",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "grok-3",
-    "provider": "xAI",
-    "model_name": "Grok 3",
-    "model_id": "grok-3",
-    "specialty": "General reasoning",
-    "context_window": 131072,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 3,
-      "output_price_per_1m_tokens": 15,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "high"
-    },
-    "best_for": "General tasks, science, math, real-time knowledge",
-    "source_url": "https://docs.x.ai/",
-    "last_updated": "2026-04-05",
-    "notes": "xAI's most capable model",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "grok-3-mini",
-    "provider": "xAI",
-    "model_name": "Grok 3 Mini",
-    "model_id": "grok-3-mini",
-    "specialty": "Fast reasoning",
-    "context_window": 131072,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 0.3,
-      "output_price_per_1m_tokens": 0.5,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": true,
-      "reasoning_level": "high"
-    },
-    "best_for": "Quick reasoning tasks at lower cost",
-    "source_url": "https://docs.x.ai/",
-    "last_updated": "2026-04-05",
-    "notes": "Compact reasoning model from xAI",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "perplexity-sonar-pro",
-    "provider": "Perplexity",
-    "model_name": "Sonar Pro",
-    "model_id": "sonar-pro",
-    "specialty": "Web search + reasoning",
-    "context_window": 200000,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 3,
-      "output_price_per_1m_tokens": 15,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": false,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Research, real-time web search, citations",
-    "source_url": "https://docs.perplexity.ai/",
-    "last_updated": "2026-04-05",
-    "notes": "Includes live web search with citations",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "perplexity-sonar",
-    "provider": "Perplexity",
-    "model_name": "Sonar",
-    "model_id": "sonar",
-    "specialty": "Search-augmented",
-    "context_window": 127072,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 1,
-      "output_price_per_1m_tokens": 1,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": false,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Efficient search-augmented responses",
-    "source_url": "https://docs.perplexity.ai/",
-    "last_updated": "2026-04-05",
-    "notes": "Lightweight web-augmented model",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "qwen-qwq-32b",
-    "provider": "Alibaba",
-    "model_name": "QwQ 32B",
-    "model_id": "Qwen/QwQ-32B",
-    "specialty": "Reasoning",
-    "context_window": 131072,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 0.12,
-      "output_price_per_1m_tokens": 0.18,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": false,
-      "reasoning_level": "high"
-    },
-    "best_for": "Math, science reasoning at low cost",
-    "source_url": "https://huggingface.co/Qwen",
-    "last_updated": "2026-04-05",
-    "notes": "Alibaba's open reasoning model",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
     "id": "qwen-2-5-72b",
     "provider": "Alibaba",
     "model_name": "Qwen 2.5 72B",
@@ -1267,7 +34,8 @@
     "notes": "Alibaba's flagship open-source LLM",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "is_new": false
   },
   {
     "id": "qwen-2-5-coder-32b",
@@ -1304,217 +72,21 @@
     "notes": "Top open-source coding model",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-04-05"
+    "last_verified": "2026-04-05",
+    "is_new": false
   },
   {
-    "id": "phi-4",
-    "provider": "Microsoft",
-    "model_name": "Phi-4",
-    "model_id": "microsoft/phi-4",
-    "specialty": "Small language model",
-    "context_window": 16384,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 0.07,
-      "output_price_per_1m_tokens": 0.14,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": false,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Edge/device deployment, STEM reasoning",
-    "source_url": "https://huggingface.co/microsoft/phi-4",
-    "last_updated": "2026-04-05",
-    "notes": "14B parameter small model with strong STEM performance",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "gemma-3-27b",
-    "provider": "Google",
-    "model_name": "Gemma 3 27B",
-    "model_id": "google/gemma-3-27b-it",
-    "specialty": "Open-source general",
+    "id": "qwen-qwq-32b",
+    "provider": "Alibaba",
+    "model_name": "QwQ 32B",
+    "model_id": "Qwen/QwQ-32B",
+    "specialty": "Reasoning",
     "context_window": 131072,
     "pricing": {
-      "type": "provider-dependent",
-      "note": "Open-source model pricing varies by host and deployment setup.",
-      "input_price_per_1m_tokens": 0.1,
-      "output_price_per_1m_tokens": 0.2,
-      "example_providers": [
-        "Together AI",
-        "Fireworks",
-        "Replicate"
-      ]
-    },
-    "rate_limits": {
-      "type": "tier-based",
-      "note": "Provider enforces account-tier-based limits that can change.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": false,
-      "code": true,
-      "function_calling": false,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Open-source multimodal tasks with long context",
-    "source_url": "https://ai.google.dev/gemma",
-    "last_updated": "2026-04-05",
-    "notes": "Google's open-source Gemma 3 family",
-    "data_quality": "community",
-    "availability": "open-source",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "nous-hermes-3",
-    "provider": "Together AI",
-    "model_name": "Nous Hermes 3 405B",
-    "model_id": "NousResearch/Hermes-3-Llama-3.1-405B-Turbo",
-    "specialty": "Instruction following",
-    "context_window": 32768,
-    "pricing": {
-      "type": "provider-dependent",
-      "note": "Open-source model pricing varies by host and deployment setup.",
-      "input_price_per_1m_tokens": 3.5,
-      "output_price_per_1m_tokens": 3.5,
-      "example_providers": [
-        "Together AI",
-        "Fireworks",
-        "Replicate"
-      ]
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": false,
-      "audio": false,
-      "code": true,
-      "function_calling": false,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Creative tasks, long-form writing",
-    "source_url": "https://www.together.ai/",
-    "last_updated": "2026-04-05",
-    "notes": "Fine-tuned on Llama 3.1 405B by Nous Research",
-    "data_quality": "community",
-    "availability": "open-source",
-    "last_verified": "2026-04-05"
-  },
-  {
-    "id": "llama-3-2-11b-vision",
-    "provider": "Meta",
-    "model_name": "Llama 3.2 11B Vision",
-    "model_id": "meta-llama/Llama-3.2-11B-Vision-Instruct",
-    "specialty": "Multimodal small",
-    "context_window": 128000,
-    "pricing": {
-      "type": "provider-dependent",
-      "note": "Open-source model pricing varies by host and deployment setup.",
-      "input_price_per_1m_tokens": 0.16,
-      "output_price_per_1m_tokens": 0.16,
-      "example_providers": [
-        "Together AI",
-        "Fireworks",
-        "Replicate"
-      ]
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": false,
-      "code": true,
-      "function_calling": false,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Efficient open-source vision tasks",
-    "source_url": "https://llama.meta.com/",
-    "last_updated": "2024-09-25",
-    "notes": "Compact multimodal open-source model",
-    "data_quality": "community",
-    "availability": "open-source",
-    "last_verified": "2024-09-25"
-  },
-  {
-    "id": "grok-2-vision",
-    "provider": "xAI",
-    "model_name": "Grok 2 Vision",
-    "model_id": "grok-2-vision-1212",
-    "specialty": "Multimodal",
-    "context_window": 32768,
-    "pricing": {
       "type": "official",
       "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 2,
-      "output_price_per_1m_tokens": 10,
-      "examples": []
-    },
-    "rate_limits": {
-      "type": "unknown",
-      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
-      "rpm": null,
-      "tpm": null,
-      "rpd": null
-    },
-    "capabilities": {
-      "text": true,
-      "vision": true,
-      "audio": false,
-      "code": true,
-      "function_calling": false,
-      "reasoning_level": "medium"
-    },
-    "best_for": "Image understanding tasks",
-    "source_url": "https://docs.x.ai/",
-    "last_updated": "2024-12-12",
-    "notes": "Grok 2 with vision capabilities",
-    "data_quality": "estimated",
-    "availability": "api",
-    "last_verified": "2024-12-12"
-  },
-  {
-    "id": "perplexity-sonar-reasoning",
-    "provider": "Perplexity",
-    "model_name": "Sonar Reasoning",
-    "model_id": "sonar-reasoning-pro",
-    "specialty": "Search + reasoning",
-    "context_window": 127072,
-    "pricing": {
-      "type": "official",
-      "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 2,
-      "output_price_per_1m_tokens": 8,
+      "input_price_per_1m_tokens": 0.12,
+      "output_price_per_1m_tokens": 0.18,
       "examples": []
     },
     "rate_limits": {
@@ -1532,26 +104,331 @@
       "function_calling": false,
       "reasoning_level": "high"
     },
-    "best_for": "Research with deep reasoning chains",
-    "source_url": "https://docs.perplexity.ai/",
-    "last_updated": "2025-01-01",
-    "notes": "Combines web search with chain-of-thought reasoning",
+    "best_for": "Math, science reasoning at low cost",
+    "source_url": "https://huggingface.co/Qwen",
+    "last_updated": "2026-04-05",
+    "notes": "Alibaba's open reasoning model",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2025-01-01"
+    "last_verified": "2026-04-05",
+    "is_new": false
   },
   {
-    "id": "nous-mixtral-8x22b",
-    "provider": "Together AI",
-    "model_name": "Mixtral 8x22B",
-    "model_id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
-    "specialty": "MoE general purpose",
-    "context_window": 65536,
+    "id": "claude-3-opus",
+    "provider": "Anthropic",
+    "model_name": "Claude 3 Opus",
+    "model_id": "claude-3-opus-20240229",
+    "specialty": "Powerful analysis",
+    "context_window": 200000,
     "pricing": {
       "type": "official",
       "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 1.2,
-      "output_price_per_1m_tokens": 1.2,
+      "input_price_per_1m_tokens": 15,
+      "output_price_per_1m_tokens": 75,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Complex analysis, nuanced tasks",
+    "source_url": "https://docs.anthropic.com/en/docs/models-overview",
+    "last_updated": "2026-04-05",
+    "notes": "Original flagship Claude 3 model",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "claude-3-5-haiku",
+    "provider": "Anthropic",
+    "model_name": "Claude 3.5 Haiku",
+    "model_id": "claude-3-5-haiku-20241022",
+    "specialty": "Fast and affordable",
+    "context_window": 200000,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 0.8,
+      "output_price_per_1m_tokens": 4,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "High-speed, cost-efficient tasks",
+    "source_url": "https://docs.anthropic.com/en/docs/models-overview",
+    "last_updated": "2026-04-05",
+    "notes": "Fastest Claude model",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "claude-3-5-sonnet",
+    "provider": "Anthropic",
+    "model_name": "Claude 3.5 Sonnet",
+    "model_id": "claude-3-5-sonnet-20241022",
+    "specialty": "General intelligence",
+    "context_window": 200000,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 3,
+      "output_price_per_1m_tokens": 15,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Writing, analysis, coding, vision tasks",
+    "source_url": "https://docs.anthropic.com/en/docs/models-overview",
+    "last_updated": "2026-04-05",
+    "notes": "Widely used capable model",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "claude-3-7-sonnet",
+    "provider": "Anthropic",
+    "model_name": "Claude 3.7 Sonnet",
+    "model_id": "claude-3-7-sonnet-20250219",
+    "specialty": "Hybrid reasoning",
+    "context_window": 200000,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 3,
+      "output_price_per_1m_tokens": 15,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "high"
+    },
+    "best_for": "Coding, data science, complex reasoning",
+    "source_url": "https://docs.anthropic.com/en/docs/models-overview",
+    "last_updated": "2026-04-05",
+    "notes": "Hybrid reasoning model with extended thinking capability",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "claude-3-7-sonnet",
+    "model_id": "claude-3-7-sonnet",
+    "model_name": "Claude 3.7 Sonnet",
+    "provider": "Anthropic",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs manual verification."
+  },
+  {
+    "id": "claude-opus-4",
+    "provider": "Anthropic",
+    "model_name": "Claude Opus 4",
+    "model_id": "claude-opus-4-5",
+    "specialty": "Flagship intelligence",
+    "context_window": 200000,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 15,
+      "output_price_per_1m_tokens": 75,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "high"
+    },
+    "best_for": "Complex research, analysis, and writing",
+    "source_url": "https://docs.anthropic.com/en/docs/models-overview",
+    "last_updated": "2026-04-05",
+    "notes": "Anthropic's most capable model",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "claude-opus-4-1",
+    "model_id": "claude-opus-4-1",
+    "model_name": "Claude Opus 4.1",
+    "provider": "Anthropic",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs manual verification."
+  },
+  {
+    "id": "claude-sonnet-4",
+    "provider": "Anthropic",
+    "model_name": "Claude Sonnet 4",
+    "model_id": "claude-sonnet-4-5",
+    "specialty": "Balanced performance",
+    "context_window": 200000,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 3,
+      "output_price_per_1m_tokens": 15,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "high"
+    },
+    "best_for": "Balanced intelligence and speed for complex tasks",
+    "source_url": "https://docs.anthropic.com/en/docs/models-overview",
+    "last_updated": "2026-04-05",
+    "notes": "Strong middle-tier model with extended thinking",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "command-r",
+    "provider": "Cohere",
+    "model_name": "Command R",
+    "model_id": "command-r",
+    "specialty": "RAG-optimized",
+    "context_window": 128000,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 0.15,
+      "output_price_per_1m_tokens": 0.6,
       "examples": []
     },
     "rate_limits": {
@@ -1569,26 +446,65 @@
       "function_calling": true,
       "reasoning_level": "medium"
     },
-    "best_for": "High-capacity open-source inference",
-    "source_url": "https://www.together.ai/",
-    "last_updated": "2024-04-01",
-    "notes": "Hosted by Together AI",
+    "best_for": "Efficient RAG tasks and document analysis",
+    "source_url": "https://docs.cohere.com/docs/models",
+    "last_updated": "2026-04-05",
+    "notes": "Lightweight RAG-optimized model",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2024-04-01"
+    "last_verified": "2026-04-05",
+    "is_new": false
   },
   {
-    "id": "phi-3-5-mini",
-    "provider": "Microsoft",
-    "model_name": "Phi-3.5 Mini",
-    "model_id": "microsoft/Phi-3.5-mini-instruct",
-    "specialty": "On-device SLM",
+    "id": "command-r-plus",
+    "provider": "Cohere",
+    "model_name": "Command R+",
+    "model_id": "command-r-plus",
+    "specialty": "RAG and enterprise",
     "context_window": 128000,
     "pricing": {
       "type": "official",
       "note": "Published by the official API provider.",
-      "input_price_per_1m_tokens": 0.03,
-      "output_price_per_1m_tokens": 0.1,
+      "input_price_per_1m_tokens": 2.5,
+      "output_price_per_1m_tokens": 10,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "RAG pipelines, enterprise search, long documents",
+    "source_url": "https://docs.cohere.com/docs/models",
+    "last_updated": "2026-04-05",
+    "notes": "Optimized for retrieval-augmented generation",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "deepseek-r1",
+    "provider": "DeepSeek",
+    "model_name": "DeepSeek R1",
+    "model_id": "deepseek-reasoner",
+    "specialty": "Reasoning",
+    "context_window": 131072,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 0.55,
+      "output_price_per_1m_tokens": 2.19,
       "examples": []
     },
     "rate_limits": {
@@ -1604,15 +520,320 @@
       "audio": false,
       "code": true,
       "function_calling": false,
-      "reasoning_level": "medium"
+      "reasoning_level": "high"
     },
-    "best_for": "Edge deployment, low-latency inference",
-    "source_url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct",
-    "last_updated": "2024-08-01",
-    "notes": "3.8B model optimized for resource-constrained environments",
+    "best_for": "Math, science, and complex reasoning",
+    "source_url": "https://platform.deepseek.com/",
+    "last_updated": "2026-04-05",
+    "notes": "DeepSeek's reasoning model, competitive with o1",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2024-08-01"
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "deepseek-v3",
+    "provider": "DeepSeek",
+    "model_name": "DeepSeek V3",
+    "model_id": "deepseek-chat",
+    "specialty": "General purpose",
+    "context_window": 131072,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 0.27,
+      "output_price_per_1m_tokens": 1.1,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "General coding, analysis, and reasoning tasks",
+    "source_url": "https://platform.deepseek.com/",
+    "last_updated": "2026-04-05",
+    "notes": "671B MoE model, extremely cost-efficient",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "gemini-1-5-flash",
+    "provider": "Google",
+    "model_name": "Gemini 1.5 Flash",
+    "model_id": "gemini-1.5-flash",
+    "specialty": "Efficient multimodal",
+    "context_window": 1048576,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 0.075,
+      "output_price_per_1m_tokens": 0.3,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": true,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Fast, affordable multimodal tasks at scale",
+    "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini",
+    "last_updated": "2026-04-05",
+    "notes": "Most cost-efficient Gemini model",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "gemini-1-5-pro",
+    "provider": "Google",
+    "model_name": "Gemini 1.5 Pro",
+    "model_id": "gemini-1.5-pro",
+    "specialty": "Long context",
+    "context_window": 2097152,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 1.25,
+      "output_price_per_1m_tokens": 5,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": true,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Processing very long documents, video, audio files",
+    "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini",
+    "last_updated": "2026-04-05",
+    "notes": "Holds the record for largest context window",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "gemini-2-0-flash",
+    "provider": "Google",
+    "model_name": "Gemini 2.0 Flash",
+    "model_id": "gemini-2.0-flash",
+    "specialty": "Multimodal fast",
+    "context_window": 1048576,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 0.1,
+      "output_price_per_1m_tokens": 0.4,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": true,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Real-time applications, live streaming, agentic tasks",
+    "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini",
+    "last_updated": "2026-04-05",
+    "notes": "Supports image/video/audio generation",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "gemini-2-5-flash",
+    "provider": "Google",
+    "model_name": "Gemini 2.5 Flash",
+    "model_id": "gemini-2.5-flash-preview-05-20",
+    "specialty": "Fast multimodal",
+    "context_window": 1048576,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 0.15,
+      "output_price_per_1m_tokens": 0.6,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": true,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "high"
+    },
+    "best_for": "Speed-sensitive tasks with large context and thinking",
+    "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini",
+    "last_updated": "2026-04-05",
+    "notes": "Fast with thinking mode and 1M token context",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "gemini-2.5-flash",
+    "model_id": "gemini-2.5-flash",
+    "model_name": "Gemini 2.5 Flash",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs manual verification."
+  },
+  {
+    "id": "gemini-2-5-pro",
+    "provider": "Google",
+    "model_name": "Gemini 2.5 Pro",
+    "model_id": "gemini-2.5-pro-preview-06-05",
+    "specialty": "Flagship multimodal",
+    "context_window": 1048576,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 1.25,
+      "output_price_per_1m_tokens": 10,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": true,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "high"
+    },
+    "best_for": "Massive context, complex reasoning, multimodal tasks",
+    "source_url": "https://ai.google.dev/gemini-api/docs/models/gemini",
+    "last_updated": "2026-04-05",
+    "notes": "Google's most capable model with 1M token context",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "gemini-2.5-pro",
+    "model_id": "gemini-2.5-pro",
+    "model_name": "Gemini 2.5 Pro",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs manual verification."
   },
   {
     "id": "gemma-2-9b",
@@ -1653,7 +874,446 @@
     "notes": "Small but competitive with larger models",
     "data_quality": "community",
     "availability": "open-source",
-    "last_verified": "2024-06-01"
+    "last_verified": "2024-06-01",
+    "is_new": false
+  },
+  {
+    "id": "gemma-3-27b",
+    "provider": "Google",
+    "model_name": "Gemma 3 27B",
+    "model_id": "google/gemma-3-27b-it",
+    "specialty": "Open-source general",
+    "context_window": 131072,
+    "pricing": {
+      "type": "provider-dependent",
+      "note": "Open-source model pricing varies by host and deployment setup.",
+      "input_price_per_1m_tokens": 0.1,
+      "output_price_per_1m_tokens": 0.2,
+      "example_providers": [
+        "Together AI",
+        "Fireworks",
+        "Replicate"
+      ]
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": false,
+      "code": true,
+      "function_calling": false,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Open-source multimodal tasks with long context",
+    "source_url": "https://ai.google.dev/gemma",
+    "last_updated": "2026-04-05",
+    "notes": "Google's open-source Gemma 3 family",
+    "data_quality": "community",
+    "availability": "open-source",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "llama-3-1-405b",
+    "provider": "Meta",
+    "model_name": "Llama 3.1 405B",
+    "model_id": "meta-llama/Meta-Llama-3.1-405B-Instruct",
+    "specialty": "Flagship open-source",
+    "context_window": 128000,
+    "pricing": {
+      "type": "provider-dependent",
+      "note": "Open-source model pricing varies by host and deployment setup.",
+      "input_price_per_1m_tokens": 5,
+      "output_price_per_1m_tokens": 15,
+      "example_providers": [
+        "Together AI",
+        "Fireworks",
+        "Replicate"
+      ]
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Maximum capability open-source tasks",
+    "source_url": "https://llama.meta.com/",
+    "last_updated": "2026-04-05",
+    "notes": "Meta's largest text-only model",
+    "data_quality": "community",
+    "availability": "open-source",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "llama-3-2-11b-vision",
+    "provider": "Meta",
+    "model_name": "Llama 3.2 11B Vision",
+    "model_id": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+    "specialty": "Multimodal small",
+    "context_window": 128000,
+    "pricing": {
+      "type": "provider-dependent",
+      "note": "Open-source model pricing varies by host and deployment setup.",
+      "input_price_per_1m_tokens": 0.16,
+      "output_price_per_1m_tokens": 0.16,
+      "example_providers": [
+        "Together AI",
+        "Fireworks",
+        "Replicate"
+      ]
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": false,
+      "code": true,
+      "function_calling": false,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Efficient open-source vision tasks",
+    "source_url": "https://llama.meta.com/",
+    "last_updated": "2024-09-25",
+    "notes": "Compact multimodal open-source model",
+    "data_quality": "community",
+    "availability": "open-source",
+    "last_verified": "2024-09-25",
+    "is_new": false
+  },
+  {
+    "id": "llama-3-2-90b-vision",
+    "provider": "Meta",
+    "model_name": "Llama 3.2 90B Vision",
+    "model_id": "meta-llama/Llama-3.2-90B-Vision-Instruct",
+    "specialty": "Multimodal open-source",
+    "context_window": 128000,
+    "pricing": {
+      "type": "provider-dependent",
+      "note": "Open-source model pricing varies by host and deployment setup.",
+      "input_price_per_1m_tokens": 1.2,
+      "output_price_per_1m_tokens": 1.2,
+      "example_providers": [
+        "Together AI",
+        "Fireworks",
+        "Replicate"
+      ]
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": false,
+      "code": true,
+      "function_calling": false,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Open-source vision tasks",
+    "source_url": "https://llama.meta.com/",
+    "last_updated": "2026-04-05",
+    "notes": "Meta's largest multimodal open-source model",
+    "data_quality": "community",
+    "availability": "open-source",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "llama-3-3-70b",
+    "provider": "Meta",
+    "model_name": "Llama 3.3 70B",
+    "model_id": "meta-llama/Llama-3.3-70B-Instruct",
+    "specialty": "Open-source LLM",
+    "context_window": 128000,
+    "pricing": {
+      "type": "provider-dependent",
+      "note": "Open-source model pricing varies by host and deployment setup.",
+      "input_price_per_1m_tokens": 0.23,
+      "output_price_per_1m_tokens": 0.4,
+      "example_providers": [
+        "Together AI",
+        "Fireworks",
+        "Replicate"
+      ]
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "General purpose open-source tasks",
+    "source_url": "https://llama.meta.com/",
+    "last_updated": "2026-04-05",
+    "notes": "Best open-source 70B model",
+    "data_quality": "community",
+    "availability": "open-source",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "phi-3-5-mini",
+    "provider": "Microsoft",
+    "model_name": "Phi-3.5 Mini",
+    "model_id": "microsoft/Phi-3.5-mini-instruct",
+    "specialty": "On-device SLM",
+    "context_window": 128000,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 0.03,
+      "output_price_per_1m_tokens": 0.1,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": false,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Edge deployment, low-latency inference",
+    "source_url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct",
+    "last_updated": "2024-08-01",
+    "notes": "3.8B model optimized for resource-constrained environments",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2024-08-01",
+    "is_new": false
+  },
+  {
+    "id": "phi-4",
+    "provider": "Microsoft",
+    "model_name": "Phi-4",
+    "model_id": "microsoft/phi-4",
+    "specialty": "Small language model",
+    "context_window": 16384,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 0.07,
+      "output_price_per_1m_tokens": 0.14,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": false,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Edge/device deployment, STEM reasoning",
+    "source_url": "https://huggingface.co/microsoft/phi-4",
+    "last_updated": "2026-04-05",
+    "notes": "14B parameter small model with strong STEM performance",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "codestral",
+    "provider": "Mistral",
+    "model_name": "Codestral",
+    "model_id": "codestral-latest",
+    "specialty": "Code generation",
+    "context_window": 262144,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 0.3,
+      "output_price_per_1m_tokens": 0.9,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": false,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Code completion, generation, and fill-in-the-middle",
+    "source_url": "https://docs.mistral.ai/getting-started/models/",
+    "last_updated": "2026-04-05",
+    "notes": "Specialized coding model from Mistral",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "mistral-large-2",
+    "provider": "Mistral",
+    "model_name": "Mistral Large 2",
+    "model_id": "mistral-large-latest",
+    "specialty": "General purpose",
+    "context_window": 131072,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 2,
+      "output_price_per_1m_tokens": 6,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Multilingual tasks, reasoning, function calling",
+    "source_url": "https://docs.mistral.ai/getting-started/models/",
+    "last_updated": "2026-04-05",
+    "notes": "Mistral's flagship model with 128K context",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "mistral-nemo",
+    "provider": "Mistral",
+    "model_name": "Mistral NeMo",
+    "model_id": "open-mistral-nemo",
+    "specialty": "Open efficient model",
+    "context_window": 131072,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 0.15,
+      "output_price_per_1m_tokens": 0.15,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Efficient multilingual tasks on Mistral API",
+    "source_url": "https://docs.mistral.ai/getting-started/models/",
+    "last_updated": "2026-04-05",
+    "notes": "12B open model co-developed with NVIDIA",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "mistral-small-3",
+    "provider": "Mistral",
+    "model_name": "Mistral Small 3",
+    "model_id": "mistral-small-latest",
+    "specialty": "Efficient small model",
+    "context_window": 32768,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 0.1,
+      "output_price_per_1m_tokens": 0.3,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Fast, cost-effective tasks",
+    "source_url": "https://docs.mistral.ai/getting-started/models/",
+    "last_updated": "2026-04-05",
+    "notes": "Lightweight but powerful",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
   },
   {
     "id": "nomic-embed-text",
@@ -1690,6 +1350,657 @@
     "notes": "Embedding model, not generative",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2024-02-01"
+    "last_verified": "2024-02-01",
+    "is_new": false
+  },
+  {
+    "id": "gpt-4-turbo",
+    "provider": "OpenAI",
+    "model_name": "GPT-4 Turbo",
+    "model_id": "gpt-4-turbo",
+    "specialty": "Large language model",
+    "context_window": 128000,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 10,
+      "output_price_per_1m_tokens": 30,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "High-quality tasks requiring large context",
+    "source_url": "https://platform.openai.com/docs/models",
+    "last_updated": "2026-04-05",
+    "notes": "Older GPT-4 variant with vision",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "gpt-4.1",
+    "model_id": "gpt-4.1",
+    "model_name": "GPT-4.1",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs manual verification."
+  },
+  {
+    "id": "gpt-4o",
+    "provider": "OpenAI",
+    "model_name": "GPT-4o",
+    "model_id": "gpt-4o",
+    "specialty": "Multimodal flagship",
+    "context_window": 128000,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 2.5,
+      "output_price_per_1m_tokens": 10,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": true,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "General-purpose tasks requiring vision, audio, and text",
+    "source_url": "https://platform.openai.com/docs/models",
+    "last_updated": "2026-04-05",
+    "notes": "OpenAI's flagship multimodal model",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "gpt-4o-mini",
+    "provider": "OpenAI",
+    "model_name": "GPT-4o mini",
+    "model_id": "gpt-4o-mini",
+    "specialty": "Small multimodal",
+    "context_window": 128000,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 0.15,
+      "output_price_per_1m_tokens": 0.6,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Cost-efficient, fast tasks with vision support",
+    "source_url": "https://platform.openai.com/docs/models",
+    "last_updated": "2026-04-05",
+    "notes": "Most affordable OpenAI model with vision",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "o1",
+    "provider": "OpenAI",
+    "model_name": "o1",
+    "model_id": "o1",
+    "specialty": "Reasoning",
+    "context_window": 200000,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 15,
+      "output_price_per_1m_tokens": 60,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "high"
+    },
+    "best_for": "Complex reasoning, math, science, coding",
+    "source_url": "https://platform.openai.com/docs/models",
+    "last_updated": "2026-04-05",
+    "notes": "OpenAI's most powerful reasoning model",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "o1-mini",
+    "provider": "OpenAI",
+    "model_name": "o1-mini",
+    "model_id": "o1-mini",
+    "specialty": "Reasoning (lightweight)",
+    "context_window": 128000,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 3,
+      "output_price_per_1m_tokens": 12,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": false,
+      "reasoning_level": "high"
+    },
+    "best_for": "Faster, cheaper reasoning for STEM tasks",
+    "source_url": "https://platform.openai.com/docs/models",
+    "last_updated": "2026-04-05",
+    "notes": "Compact reasoning model",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "o3",
+    "model_id": "o3",
+    "model_name": "o3",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs manual verification."
+  },
+  {
+    "id": "o3-mini",
+    "provider": "OpenAI",
+    "model_name": "o3-mini",
+    "model_id": "o3-mini",
+    "specialty": "Reasoning (fast)",
+    "context_window": 200000,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 1.1,
+      "output_price_per_1m_tokens": 4.4,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "tier-based",
+      "note": "Provider enforces account-tier-based limits that can change.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "high"
+    },
+    "best_for": "Fast reasoning at lower cost",
+    "source_url": "https://platform.openai.com/docs/models",
+    "last_updated": "2026-04-05",
+    "notes": "Efficient reasoning model in the o3 family",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "o4-mini",
+    "model_id": "o4-mini",
+    "model_name": "o4-mini",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs manual verification."
+  },
+  {
+    "id": "perplexity-sonar",
+    "provider": "Perplexity",
+    "model_name": "Sonar",
+    "model_id": "sonar",
+    "specialty": "Search-augmented",
+    "context_window": 127072,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 1,
+      "output_price_per_1m_tokens": 1,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": false,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Efficient search-augmented responses",
+    "source_url": "https://docs.perplexity.ai/",
+    "last_updated": "2026-04-05",
+    "notes": "Lightweight web-augmented model",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "perplexity-sonar-pro",
+    "provider": "Perplexity",
+    "model_name": "Sonar Pro",
+    "model_id": "sonar-pro",
+    "specialty": "Web search + reasoning",
+    "context_window": 200000,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 3,
+      "output_price_per_1m_tokens": 15,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": false,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Research, real-time web search, citations",
+    "source_url": "https://docs.perplexity.ai/",
+    "last_updated": "2026-04-05",
+    "notes": "Includes live web search with citations",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "perplexity-sonar-reasoning",
+    "provider": "Perplexity",
+    "model_name": "Sonar Reasoning",
+    "model_id": "sonar-reasoning-pro",
+    "specialty": "Search + reasoning",
+    "context_window": 127072,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 2,
+      "output_price_per_1m_tokens": 8,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": false,
+      "reasoning_level": "high"
+    },
+    "best_for": "Research with deep reasoning chains",
+    "source_url": "https://docs.perplexity.ai/",
+    "last_updated": "2025-01-01",
+    "notes": "Combines web search with chain-of-thought reasoning",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2025-01-01",
+    "is_new": false
+  },
+  {
+    "id": "nous-mixtral-8x22b",
+    "provider": "Together AI",
+    "model_name": "Mixtral 8x22B",
+    "model_id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+    "specialty": "MoE general purpose",
+    "context_window": 65536,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 1.2,
+      "output_price_per_1m_tokens": 1.2,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "medium"
+    },
+    "best_for": "High-capacity open-source inference",
+    "source_url": "https://www.together.ai/",
+    "last_updated": "2024-04-01",
+    "notes": "Hosted by Together AI",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2024-04-01",
+    "is_new": false
+  },
+  {
+    "id": "nous-hermes-3",
+    "provider": "Together AI",
+    "model_name": "Nous Hermes 3 405B",
+    "model_id": "NousResearch/Hermes-3-Llama-3.1-405B-Turbo",
+    "specialty": "Instruction following",
+    "context_window": 32768,
+    "pricing": {
+      "type": "provider-dependent",
+      "note": "Open-source model pricing varies by host and deployment setup.",
+      "input_price_per_1m_tokens": 3.5,
+      "output_price_per_1m_tokens": 3.5,
+      "example_providers": [
+        "Together AI",
+        "Fireworks",
+        "Replicate"
+      ]
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": false,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Creative tasks, long-form writing",
+    "source_url": "https://www.together.ai/",
+    "last_updated": "2026-04-05",
+    "notes": "Fine-tuned on Llama 3.1 405B by Nous Research",
+    "data_quality": "community",
+    "availability": "open-source",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "grok-2-vision",
+    "provider": "xAI",
+    "model_name": "Grok 2 Vision",
+    "model_id": "grok-2-vision-1212",
+    "specialty": "Multimodal",
+    "context_window": 32768,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 2,
+      "output_price_per_1m_tokens": 10,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": false,
+      "code": true,
+      "function_calling": false,
+      "reasoning_level": "medium"
+    },
+    "best_for": "Image understanding tasks",
+    "source_url": "https://docs.x.ai/",
+    "last_updated": "2024-12-12",
+    "notes": "Grok 2 with vision capabilities",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2024-12-12",
+    "is_new": false
+  },
+  {
+    "id": "grok-3",
+    "provider": "xAI",
+    "model_name": "Grok 3",
+    "model_id": "grok-3",
+    "specialty": "General reasoning",
+    "context_window": 131072,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 3,
+      "output_price_per_1m_tokens": 15,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": true,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "high"
+    },
+    "best_for": "General tasks, science, math, real-time knowledge",
+    "source_url": "https://docs.x.ai/",
+    "last_updated": "2026-04-05",
+    "notes": "xAI's most capable model",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
+  },
+  {
+    "id": "grok-3-mini",
+    "provider": "xAI",
+    "model_name": "Grok 3 Mini",
+    "model_id": "grok-3-mini",
+    "specialty": "Fast reasoning",
+    "context_window": 131072,
+    "pricing": {
+      "type": "official",
+      "note": "Published by the official API provider.",
+      "input_price_per_1m_tokens": 0.3,
+      "output_price_per_1m_tokens": 0.5,
+      "examples": []
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "note": "Not publicly defined as universal limits; varies by provider and account tier.",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null
+    },
+    "capabilities": {
+      "text": true,
+      "vision": false,
+      "audio": false,
+      "code": true,
+      "function_calling": true,
+      "reasoning_level": "high"
+    },
+    "best_for": "Quick reasoning tasks at lower cost",
+    "source_url": "https://docs.x.ai/",
+    "last_updated": "2026-04-05",
+    "notes": "Compact reasoning model from xAI",
+    "data_quality": "estimated",
+    "availability": "api",
+    "last_verified": "2026-04-05",
+    "is_new": false
   }
 ]

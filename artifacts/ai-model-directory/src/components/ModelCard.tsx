@@ -33,7 +33,10 @@ export function ModelCard({ model, isComparing, onToggleCompare, compareDisabled
           <Link href={`/model/${model.id}`}>
             <h3 className="font-semibold text-foreground hover:text-primary transition-colors truncate cursor-pointer">{model.model_name}</h3>
           </Link>
-          <div className="mt-1 inline-flex items-center gap-2">
+          <div className="mt-1 inline-flex items-center gap-2 flex-wrap">
+            {model.is_new && (
+              <span className="text-[10px] px-2 py-0.5 rounded-full border bg-sky-500/10 text-sky-700 border-sky-500/30">🆕 New</span>
+            )}
             <span className={`text-[10px] px-2 py-0.5 rounded-full border ${quality.className}`}>{quality.label}</span>
             <span className="text-[10px] text-muted-foreground uppercase">{model.availability}</span>
           </div>
@@ -45,6 +48,12 @@ export function ModelCard({ model, isComparing, onToggleCompare, compareDisabled
           </button>
         )}
       </div>
+
+      {model.is_new && (
+        <p className="text-[11px] text-amber-700 bg-amber-500/10 border border-amber-500/30 rounded-md px-2 py-1">
+          This model was recently discovered and may not be fully verified.
+        </p>
+      )}
 
       <p className="text-[11px] text-muted-foreground">{pricingHeadline(model)}</p>
 
