@@ -273,6 +273,44 @@
     "reviews": []
   },
   {
+    "id": "claude-haiku-4-5-20251001",
+    "model_id": "claude-haiku-4-5-20251001",
+    "model_name": "Claude Haiku 4.5",
+    "provider": "Anthropic",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.662Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
     "id": "claude-opus-4",
     "provider": "Anthropic",
     "model_name": "Claude Opus 4",
@@ -307,7 +345,7 @@
     "notes": "Anthropic's most capable model",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-05T15:06:51.662Z",
     "is_new": false,
     "reviews": []
   },
@@ -315,6 +353,45 @@
     "id": "claude-opus-4-1",
     "model_id": "claude-opus-4-1",
     "model_name": "Claude Opus 4.1",
+    "provider": "Anthropic",
+    "specialty": "Unverified",
+    "context_window": 200000,
+    "data_quality": "unknown",
+    "is_new": false,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.662Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs manual verification.",
+    "reviews": []
+  },
+  {
+    "id": "claude-opus-4-5-20251101",
+    "model_id": "claude-opus-4-5-20251101",
+    "model_name": "Claude Opus 4.5",
     "provider": "Anthropic",
     "specialty": "Unverified",
     "context_window": null,
@@ -344,11 +421,48 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-05T15:06:51.661Z",
     "source_url": null,
     "last_updated": "2026-04-05",
-    "notes": "Auto-discovered model. Needs manual verification.",
-    "reviews": []
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "claude-opus-4-6",
+    "model_id": "claude-opus-4-6",
+    "model_name": "Claude Opus 4.6",
+    "provider": "Anthropic",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.661Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
   },
   {
     "id": "claude-sonnet-4",
@@ -385,9 +499,85 @@
     "notes": "Strong middle-tier model with extended thinking",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-05T15:06:51.662Z",
     "is_new": false,
     "reviews": []
+  },
+  {
+    "id": "claude-sonnet-4-5-20250929",
+    "model_id": "claude-sonnet-4-5-20250929",
+    "model_name": "Claude Sonnet 4.5",
+    "provider": "Anthropic",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.662Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "claude-sonnet-4-6",
+    "model_id": "claude-sonnet-4-6",
+    "model_name": "Claude Sonnet 4.6",
+    "provider": "Anthropic",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.660Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
   },
   {
     "id": "command-r",
@@ -507,6 +697,44 @@
     "reviews": []
   },
   {
+    "id": "deep-research-pro-preview-12-2025",
+    "model_id": "deep-research-pro-preview-12-2025",
+    "model_name": "Deep Research Pro Preview (Dec-12-2025)",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.655Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
     "id": "gemini-1-5-flash",
     "provider": "Google",
     "model_name": "Gemini 1.5 Flash",
@@ -619,9 +847,161 @@
     "notes": "Supports image/video/audio generation",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-05T15:06:51.646Z",
     "is_new": false,
     "reviews": []
+  },
+  {
+    "id": "gemini-2.0-flash-001",
+    "model_id": "gemini-2.0-flash-001",
+    "model_name": "Gemini 2.0 Flash 001",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.646Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-2.0-flash-lite",
+    "model_id": "gemini-2.0-flash-lite",
+    "model_name": "Gemini 2.0 Flash-Lite",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.647Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-2.0-flash-lite-001",
+    "model_id": "gemini-2.0-flash-lite-001",
+    "model_name": "Gemini 2.0 Flash-Lite 001",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.647Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-2.5-computer-use-preview-10-2025",
+    "model_id": "gemini-2.5-computer-use-preview-10-2025",
+    "model_name": "Gemini 2.5 Computer Use Preview 10-2025",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.655Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
   },
   {
     "id": "gemini-2-5-flash",
@@ -658,9 +1038,199 @@
     "notes": "Fast with thinking mode and 1M token context",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-05T15:06:51.646Z",
     "is_new": false,
     "reviews": []
+  },
+  {
+    "id": "gemini-2.5-flash-native-audio-latest",
+    "model_id": "gemini-2.5-flash-native-audio-latest",
+    "model_name": "Gemini 2.5 Flash Native Audio Latest",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.659Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-2.5-flash-native-audio-preview-09-2025",
+    "model_id": "gemini-2.5-flash-native-audio-preview-09-2025",
+    "model_name": "Gemini 2.5 Flash Native Audio Preview 09-2025",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.659Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-2.5-flash-native-audio-preview-12-2025",
+    "model_id": "gemini-2.5-flash-native-audio-preview-12-2025",
+    "model_name": "Gemini 2.5 Flash Native Audio Preview 12-2025",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.660Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-2.5-flash-preview-tts",
+    "model_id": "gemini-2.5-flash-preview-tts",
+    "model_name": "Gemini 2.5 Flash Preview TTS",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.647Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-2.5-flash-lite",
+    "model_id": "gemini-2.5-flash-lite",
+    "model_name": "Gemini 2.5 Flash-Lite",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.651Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
   },
   {
     "id": "gemini-2-5-pro",
@@ -697,9 +1267,503 @@
     "notes": "Google's most capable model with 1M token context",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-05T15:06:51.646Z",
     "is_new": false,
     "reviews": []
+  },
+  {
+    "id": "gemini-2.5-pro-preview-tts",
+    "model_id": "gemini-2.5-pro-preview-tts",
+    "model_name": "Gemini 2.5 Pro Preview TTS",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.647Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-3-flash-preview",
+    "model_id": "gemini-3-flash-preview",
+    "model_name": "Gemini 3 Flash Preview",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.652Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-3-pro-preview",
+    "model_id": "gemini-3-pro-preview",
+    "model_name": "Gemini 3 Pro Preview",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.651Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-3.1-flash-lite-preview",
+    "model_id": "gemini-3.1-flash-lite-preview",
+    "model_name": "Gemini 3.1 Flash Lite Preview",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.653Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-3.1-flash-live-preview",
+    "model_id": "gemini-3.1-flash-live-preview",
+    "model_name": "Gemini 3.1 Flash Live Preview",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.660Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-3.1-pro-preview",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_name": "Gemini 3.1 Pro Preview",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.652Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-3.1-pro-preview-customtools",
+    "model_id": "gemini-3.1-pro-preview-customtools",
+    "model_name": "Gemini 3.1 Pro Preview Custom Tools",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.652Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-embedding-001",
+    "model_id": "gemini-embedding-001",
+    "model_name": "Gemini Embedding 001",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.655Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-embedding-2-preview",
+    "model_id": "gemini-embedding-2-preview",
+    "model_name": "Gemini Embedding 2 Preview",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.656Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-flash-latest",
+    "model_id": "gemini-flash-latest",
+    "model_name": "Gemini Flash Latest",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.650Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-flash-lite-latest",
+    "model_id": "gemini-flash-lite-latest",
+    "model_name": "Gemini Flash-Lite Latest",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.650Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-pro-latest",
+    "model_id": "gemini-pro-latest",
+    "model_name": "Gemini Pro Latest",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.650Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-robotics-er-1.5-preview",
+    "model_id": "gemini-robotics-er-1.5-preview",
+    "model_name": "Gemini Robotics-ER 1.5 Preview",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.654Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
   },
   {
     "id": "gemma-2-9b",
@@ -745,6 +1809,82 @@
     "reviews": []
   },
   {
+    "id": "gemma-3-12b-it",
+    "model_id": "gemma-3-12b-it",
+    "model_name": "Gemma 3 12B",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.648Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemma-3-1b-it",
+    "model_id": "gemma-3-1b-it",
+    "model_name": "Gemma 3 1B",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.648Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
     "id": "gemma-3-27b",
     "provider": "Google",
     "model_name": "Gemma 3 27B",
@@ -783,9 +1923,769 @@
     "notes": "Google's open-source Gemma 3 family",
     "data_quality": "community",
     "availability": "open-source",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-05T15:06:51.648Z",
     "is_new": false,
     "reviews": []
+  },
+  {
+    "id": "gemma-3-4b-it",
+    "model_id": "gemma-3-4b-it",
+    "model_name": "Gemma 3 4B",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.648Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemma-3n-e2b-it",
+    "model_id": "gemma-3n-e2b-it",
+    "model_name": "Gemma 3n E2B",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.649Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemma-3n-e4b-it",
+    "model_id": "gemma-3n-e4b-it",
+    "model_name": "Gemma 3n E4B",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.649Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemma-4-26b-a4b-it",
+    "model_id": "gemma-4-26b-a4b-it",
+    "model_name": "Gemma 4 26B A4B IT",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.649Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemma-4-31b-it",
+    "model_id": "gemma-4-31b-it",
+    "model_name": "Gemma 4 31B IT",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.650Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "imagen-4.0-generate-001",
+    "model_id": "imagen-4.0-generate-001",
+    "model_name": "Imagen 4",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.656Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "imagen-4.0-fast-generate-001",
+    "model_id": "imagen-4.0-fast-generate-001",
+    "model_name": "Imagen 4 Fast",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.657Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "imagen-4.0-ultra-generate-001",
+    "model_id": "imagen-4.0-ultra-generate-001",
+    "model_name": "Imagen 4 Ultra",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.657Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "lyria-3-clip-preview",
+    "model_id": "lyria-3-clip-preview",
+    "model_name": "Lyria 3 Clip Preview",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.654Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "lyria-3-pro-preview",
+    "model_id": "lyria-3-pro-preview",
+    "model_name": "Lyria 3 Pro Preview",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.654Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "aqa",
+    "model_id": "aqa",
+    "model_name": "Model that performs Attributed Question Answering.",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.656Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-2.5-flash-image",
+    "model_id": "gemini-2.5-flash-image",
+    "model_name": "Nano Banana",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.651Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-3.1-flash-image-preview",
+    "model_id": "gemini-3.1-flash-image-preview",
+    "model_name": "Nano Banana 2",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.653Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-3-pro-image-preview",
+    "model_id": "gemini-3-pro-image-preview",
+    "model_name": "Nano Banana Pro",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.653Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "veo-2.0-generate-001",
+    "model_id": "veo-2.0-generate-001",
+    "model_name": "Veo 2",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.657Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "veo-3.0-generate-001",
+    "model_id": "veo-3.0-generate-001",
+    "model_name": "Veo 3",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.657Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "veo-3.0-fast-generate-001",
+    "model_id": "veo-3.0-fast-generate-001",
+    "model_name": "Veo 3 fast",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.658Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "veo-3.1-generate-preview",
+    "model_id": "veo-3.1-generate-preview",
+    "model_name": "Veo 3.1",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.658Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "veo-3.1-fast-generate-preview",
+    "model_id": "veo-3.1-fast-generate-preview",
+    "model_name": "Veo 3.1 fast",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.658Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "veo-3.1-lite-generate-preview",
+    "model_id": "veo-3.1-lite-generate-preview",
+    "model_name": "Veo 3.1 lite",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.658Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
   },
   {
     "id": "llama-3-1-405b",
@@ -1233,6 +3133,424 @@
     "reviews": []
   },
   {
+    "id": "babbage-002",
+    "model_id": "babbage-002",
+    "model_name": "babbage-002",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.625Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "chatgpt-image-latest",
+    "model_id": "chatgpt-image-latest",
+    "model_name": "chatgpt-image-latest",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.642Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "dall-e-2",
+    "model_id": "dall-e-2",
+    "model_name": "dall-e-2",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.626Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "dall-e-3",
+    "model_id": "dall-e-3",
+    "model_name": "dall-e-3",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.626Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "davinci-002",
+    "model_id": "davinci-002",
+    "model_name": "davinci-002",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.625Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-3.5-turbo",
+    "model_id": "gpt-3.5-turbo",
+    "model_name": "gpt-3.5-turbo",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.623Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-3.5-turbo-0125",
+    "model_id": "gpt-3.5-turbo-0125",
+    "model_name": "gpt-3.5-turbo-0125",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.628Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-3.5-turbo-1106",
+    "model_id": "gpt-3.5-turbo-1106",
+    "model_name": "gpt-3.5-turbo-1106",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.626Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-3.5-turbo-16k",
+    "model_id": "gpt-3.5-turbo-16k",
+    "model_name": "gpt-3.5-turbo-16k",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.645Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-3.5-turbo-instruct",
+    "model_id": "gpt-3.5-turbo-instruct",
+    "model_name": "gpt-3.5-turbo-instruct",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.625Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-3.5-turbo-instruct-0914",
+    "model_id": "gpt-3.5-turbo-instruct-0914",
+    "model_name": "gpt-3.5-turbo-instruct-0914",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.626Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
     "id": "gpt-4-turbo",
     "provider": "OpenAI",
     "model_name": "GPT-4 Turbo",
@@ -1279,6 +3597,45 @@
     "specialty": "Unverified",
     "context_window": null,
     "data_quality": "unknown",
+    "is_new": false,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.633Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs manual verification.",
+    "reviews": []
+  },
+  {
+    "id": "gpt-4.1-2025-04-14",
+    "model_id": "gpt-4.1-2025-04-14",
+    "model_name": "gpt-4.1-2025-04-14",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
     "is_new": true,
     "pricing": {
       "type": "unknown",
@@ -1304,11 +3661,162 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-05T15:06:51.633Z",
     "source_url": null,
     "last_updated": "2026-04-05",
-    "notes": "Auto-discovered model. Needs manual verification.",
-    "reviews": []
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4.1-mini",
+    "model_id": "gpt-4.1-mini",
+    "model_name": "gpt-4.1-mini",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.633Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4.1-mini-2025-04-14",
+    "model_id": "gpt-4.1-mini-2025-04-14",
+    "model_name": "gpt-4.1-mini-2025-04-14",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.633Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4.1-nano",
+    "model_id": "gpt-4.1-nano",
+    "model_name": "gpt-4.1-nano",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.634Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4.1-nano-2025-04-14",
+    "model_id": "gpt-4.1-nano-2025-04-14",
+    "model_name": "gpt-4.1-nano-2025-04-14",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.633Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
   },
   {
     "id": "gpt-4o",
@@ -1345,7 +3853,7 @@
     "notes": "OpenAI's flagship multimodal model",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-05T15:06:51.629Z",
     "is_new": false,
     "reviews": []
   },
@@ -1384,9 +3892,2669 @@
     "notes": "Most affordable OpenAI model with vision",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-05T15:06:51.629Z",
     "is_new": false,
     "reviews": []
+  },
+  {
+    "id": "gpt-4o-2024-05-13",
+    "model_id": "gpt-4o-2024-05-13",
+    "model_name": "gpt-4o-2024-05-13",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.629Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-2024-08-06",
+    "model_id": "gpt-4o-2024-08-06",
+    "model_name": "gpt-4o-2024-08-06",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.630Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-2024-11-20",
+    "model_id": "gpt-4o-2024-11-20",
+    "model_name": "gpt-4o-2024-11-20",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.631Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-audio-preview",
+    "model_id": "gpt-4o-audio-preview",
+    "model_name": "gpt-4o-audio-preview",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.630Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-audio-preview-2024-12-17",
+    "model_id": "gpt-4o-audio-preview-2024-12-17",
+    "model_name": "gpt-4o-audio-preview-2024-12-17",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.630Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-audio-preview-2025-06-03",
+    "model_id": "gpt-4o-audio-preview-2025-06-03",
+    "model_name": "gpt-4o-audio-preview-2025-06-03",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.634Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-mini-2024-07-18",
+    "model_id": "gpt-4o-mini-2024-07-18",
+    "model_name": "gpt-4o-mini-2024-07-18",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.629Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-mini-audio-preview",
+    "model_id": "gpt-4o-mini-audio-preview",
+    "model_name": "gpt-4o-mini-audio-preview",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.631Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-mini-audio-preview-2024-12-17",
+    "model_id": "gpt-4o-mini-audio-preview-2024-12-17",
+    "model_name": "gpt-4o-mini-audio-preview-2024-12-17",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.630Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-mini-search-preview",
+    "model_id": "gpt-4o-mini-search-preview",
+    "model_name": "gpt-4o-mini-search-preview",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.632Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-mini-search-preview-2025-03-11",
+    "model_id": "gpt-4o-mini-search-preview-2025-03-11",
+    "model_name": "gpt-4o-mini-search-preview-2025-03-11",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.631Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-mini-transcribe",
+    "model_id": "gpt-4o-mini-transcribe",
+    "model_name": "gpt-4o-mini-transcribe",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.632Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-mini-transcribe-2025-03-20",
+    "model_id": "gpt-4o-mini-transcribe-2025-03-20",
+    "model_name": "gpt-4o-mini-transcribe-2025-03-20",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.641Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-mini-transcribe-2025-12-15",
+    "model_id": "gpt-4o-mini-transcribe-2025-12-15",
+    "model_name": "gpt-4o-mini-transcribe-2025-12-15",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.641Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-mini-tts",
+    "model_id": "gpt-4o-mini-tts",
+    "model_name": "gpt-4o-mini-tts",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.632Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-mini-tts-2025-03-20",
+    "model_id": "gpt-4o-mini-tts-2025-03-20",
+    "model_name": "gpt-4o-mini-tts-2025-03-20",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.642Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-mini-tts-2025-12-15",
+    "model_id": "gpt-4o-mini-tts-2025-12-15",
+    "model_name": "gpt-4o-mini-tts-2025-12-15",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.642Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-search-preview",
+    "model_id": "gpt-4o-search-preview",
+    "model_name": "gpt-4o-search-preview",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.644Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-search-preview-2025-03-11",
+    "model_id": "gpt-4o-search-preview-2025-03-11",
+    "model_name": "gpt-4o-search-preview-2025-03-11",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.644Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-transcribe",
+    "model_id": "gpt-4o-transcribe",
+    "model_name": "gpt-4o-transcribe",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.632Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-4o-transcribe-diarize",
+    "model_id": "gpt-4o-transcribe-diarize",
+    "model_name": "gpt-4o-transcribe-diarize",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.634Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5",
+    "model_id": "gpt-5",
+    "model_name": "gpt-5",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.635Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5-2025-08-07",
+    "model_id": "gpt-5-2025-08-07",
+    "model_name": "gpt-5-2025-08-07",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.634Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5-chat-latest",
+    "model_id": "gpt-5-chat-latest",
+    "model_name": "gpt-5-chat-latest",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.634Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5-codex",
+    "model_id": "gpt-5-codex",
+    "model_name": "gpt-5-codex",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.637Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5-mini",
+    "model_id": "gpt-5-mini",
+    "model_name": "gpt-5-mini",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.635Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5-mini-2025-08-07",
+    "model_id": "gpt-5-mini-2025-08-07",
+    "model_name": "gpt-5-mini-2025-08-07",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.635Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5-nano",
+    "model_id": "gpt-5-nano",
+    "model_name": "gpt-5-nano",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.635Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5-nano-2025-08-07",
+    "model_id": "gpt-5-nano-2025-08-07",
+    "model_name": "gpt-5-nano-2025-08-07",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.635Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5-pro",
+    "model_id": "gpt-5-pro",
+    "model_name": "gpt-5-pro",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.637Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5-pro-2025-10-06",
+    "model_id": "gpt-5-pro-2025-10-06",
+    "model_name": "gpt-5-pro-2025-10-06",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.637Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5-search-api",
+    "model_id": "gpt-5-search-api",
+    "model_name": "gpt-5-search-api",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.638Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5-search-api-2025-10-14",
+    "model_id": "gpt-5-search-api-2025-10-14",
+    "model_name": "gpt-5-search-api-2025-10-14",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.639Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.1",
+    "model_id": "gpt-5.1",
+    "model_name": "gpt-5.1",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.639Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.1-2025-11-13",
+    "model_id": "gpt-5.1-2025-11-13",
+    "model_name": "gpt-5.1-2025-11-13",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.639Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.1-chat-latest",
+    "model_id": "gpt-5.1-chat-latest",
+    "model_name": "gpt-5.1-chat-latest",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.639Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.1-codex",
+    "model_id": "gpt-5.1-codex",
+    "model_name": "gpt-5.1-codex",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.639Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.1-codex-max",
+    "model_id": "gpt-5.1-codex-max",
+    "model_name": "gpt-5.1-codex-max",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.640Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.1-codex-mini",
+    "model_id": "gpt-5.1-codex-mini",
+    "model_name": "gpt-5.1-codex-mini",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.640Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.2",
+    "model_id": "gpt-5.2",
+    "model_name": "gpt-5.2",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.640Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.2-2025-12-11",
+    "model_id": "gpt-5.2-2025-12-11",
+    "model_name": "gpt-5.2-2025-12-11",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.640Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.2-chat-latest",
+    "model_id": "gpt-5.2-chat-latest",
+    "model_name": "gpt-5.2-chat-latest",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.641Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.2-codex",
+    "model_id": "gpt-5.2-codex",
+    "model_name": "gpt-5.2-codex",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.643Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.2-pro",
+    "model_id": "gpt-5.2-pro",
+    "model_name": "gpt-5.2-pro",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.641Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.2-pro-2025-12-11",
+    "model_id": "gpt-5.2-pro-2025-12-11",
+    "model_name": "gpt-5.2-pro-2025-12-11",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.641Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.3-chat-latest",
+    "model_id": "gpt-5.3-chat-latest",
+    "model_name": "gpt-5.3-chat-latest",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.644Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.3-codex",
+    "model_id": "gpt-5.3-codex",
+    "model_name": "gpt-5.3-codex",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.643Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.4",
+    "model_id": "gpt-5.4",
+    "model_name": "gpt-5.4",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.624Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.4-2026-03-05",
+    "model_id": "gpt-5.4-2026-03-05",
+    "model_name": "gpt-5.4-2026-03-05",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.644Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.4-mini",
+    "model_id": "gpt-5.4-mini",
+    "model_name": "gpt-5.4-mini",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.624Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.4-mini-2026-03-17",
+    "model_id": "gpt-5.4-mini-2026-03-17",
+    "model_name": "gpt-5.4-mini-2026-03-17",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.625Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.4-nano",
+    "model_id": "gpt-5.4-nano",
+    "model_name": "gpt-5.4-nano",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.625Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.4-nano-2026-03-17",
+    "model_id": "gpt-5.4-nano-2026-03-17",
+    "model_name": "gpt-5.4-nano-2026-03-17",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.624Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.4-pro",
+    "model_id": "gpt-5.4-pro",
+    "model_name": "gpt-5.4-pro",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.645Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-5.4-pro-2026-03-05",
+    "model_id": "gpt-5.4-pro-2026-03-05",
+    "model_name": "gpt-5.4-pro-2026-03-05",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.645Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-audio",
+    "model_id": "gpt-audio",
+    "model_name": "gpt-audio",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.637Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-audio-1.5",
+    "model_id": "gpt-audio-1.5",
+    "model_name": "gpt-audio-1.5",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.643Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-audio-2025-08-28",
+    "model_id": "gpt-audio-2025-08-28",
+    "model_name": "gpt-audio-2025-08-28",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.636Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-audio-mini",
+    "model_id": "gpt-audio-mini",
+    "model_name": "gpt-audio-mini",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.638Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-audio-mini-2025-10-06",
+    "model_id": "gpt-audio-mini-2025-10-06",
+    "model_name": "gpt-audio-mini-2025-10-06",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.638Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-audio-mini-2025-12-15",
+    "model_id": "gpt-audio-mini-2025-12-15",
+    "model_name": "gpt-audio-mini-2025-12-15",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.642Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-image-1",
+    "model_id": "gpt-image-1",
+    "model_name": "gpt-image-1",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.634Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-image-1-mini",
+    "model_id": "gpt-image-1-mini",
+    "model_name": "gpt-image-1-mini",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.637Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-image-1.5",
+    "model_id": "gpt-image-1.5",
+    "model_name": "gpt-image-1.5",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.640Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-realtime",
+    "model_id": "gpt-realtime",
+    "model_name": "gpt-realtime",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.637Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-realtime-1.5",
+    "model_id": "gpt-realtime-1.5",
+    "model_name": "gpt-realtime-1.5",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.643Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-realtime-2025-08-28",
+    "model_id": "gpt-realtime-2025-08-28",
+    "model_name": "gpt-realtime-2025-08-28",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.637Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-realtime-mini",
+    "model_id": "gpt-realtime-mini",
+    "model_name": "gpt-realtime-mini",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.638Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-realtime-mini-2025-10-06",
+    "model_id": "gpt-realtime-mini-2025-10-06",
+    "model_name": "gpt-realtime-mini-2025-10-06",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.638Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gpt-realtime-mini-2025-12-15",
+    "model_id": "gpt-realtime-mini-2025-12-15",
+    "model_name": "gpt-realtime-mini-2025-12-15",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.642Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
   },
   {
     "id": "o1",
@@ -1423,9 +6591,47 @@
     "notes": "OpenAI's most powerful reasoning model",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-05T15:06:51.630Z",
     "is_new": false,
     "reviews": []
+  },
+  {
+    "id": "o1-2024-12-17",
+    "model_id": "o1-2024-12-17",
+    "model_name": "o1-2024-12-17",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.630Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
   },
   {
     "id": "o1-mini",
@@ -1474,6 +6680,45 @@
     "specialty": "Unverified",
     "context_window": null,
     "data_quality": "unknown",
+    "is_new": false,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.633Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs manual verification.",
+    "reviews": []
+  },
+  {
+    "id": "o3-2025-04-16",
+    "model_id": "o3-2025-04-16",
+    "model_name": "o3-2025-04-16",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
     "is_new": true,
     "pricing": {
       "type": "unknown",
@@ -1499,11 +6744,10 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-05T15:06:51.632Z",
     "source_url": null,
     "last_updated": "2026-04-05",
-    "notes": "Auto-discovered model. Needs manual verification.",
-    "reviews": []
+    "notes": "Auto-discovered model. Needs verification."
   },
   {
     "id": "o3-mini",
@@ -1540,14 +6784,14 @@
     "notes": "Efficient reasoning model in the o3 family",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-05T15:06:51.631Z",
     "is_new": false,
     "reviews": []
   },
   {
-    "id": "o4-mini",
-    "model_id": "o4-mini",
-    "model_name": "o4-mini",
+    "id": "o3-mini-2025-01-31",
+    "model_id": "o3-mini-2025-01-31",
+    "model_name": "o3-mini-2025-01-31",
     "provider": "OpenAI",
     "specialty": "Unverified",
     "context_window": null,
@@ -1577,11 +6821,543 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-04-05",
+    "last_verified": "2026-04-05T15:06:51.631Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "o4-mini",
+    "model_id": "o4-mini",
+    "model_name": "o4-mini",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": false,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.633Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs manual verification.",
     "reviews": []
+  },
+  {
+    "id": "o4-mini-2025-04-16",
+    "model_id": "o4-mini-2025-04-16",
+    "model_name": "o4-mini-2025-04-16",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.632Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "omni-moderation-2024-09-26",
+    "model_id": "omni-moderation-2024-09-26",
+    "model_name": "omni-moderation-2024-09-26",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.630Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "omni-moderation-latest",
+    "model_id": "omni-moderation-latest",
+    "model_name": "omni-moderation-latest",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.630Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "sora-2",
+    "model_id": "sora-2",
+    "model_name": "sora-2",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.638Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "sora-2-pro",
+    "model_id": "sora-2-pro",
+    "model_name": "sora-2-pro",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.638Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "text-embedding-3-large",
+    "model_id": "text-embedding-3-large",
+    "model_name": "text-embedding-3-large",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.628Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "text-embedding-3-small",
+    "model_id": "text-embedding-3-small",
+    "model_name": "text-embedding-3-small",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.627Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "text-embedding-ada-002",
+    "model_id": "text-embedding-ada-002",
+    "model_name": "text-embedding-ada-002",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.646Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "tts-1",
+    "model_id": "tts-1",
+    "model_name": "tts-1",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.645Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "tts-1-1106",
+    "model_id": "tts-1-1106",
+    "model_name": "tts-1-1106",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.627Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "tts-1-hd",
+    "model_id": "tts-1-hd",
+    "model_name": "tts-1-hd",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.626Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "tts-1-hd-1106",
+    "model_id": "tts-1-hd-1106",
+    "model_name": "tts-1-hd-1106",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.627Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "whisper-1",
+    "model_id": "whisper-1",
+    "model_name": "whisper-1",
+    "provider": "OpenAI",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-04-05T15:06:51.645Z",
+    "source_url": null,
+    "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
   },
   {
     "id": "perplexity-sonar",
