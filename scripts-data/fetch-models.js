@@ -13,6 +13,7 @@ const MODELS_PATH = path.resolve(
   "../artifacts/ai-model-directory/public/data/models.json",
 );
 const TODAY = new Date().toISOString().split("T")[0];
+const NOW_ISO = () => new Date().toISOString();
 
 async function readJsonArray(filePath) {
   try {
@@ -26,6 +27,18 @@ async function readJsonArray(filePath) {
 
 function isMissing(value) {
   return value === undefined || value === null || value === "";
+}
+
+function normalize(str) {
+  return String(str ?? "")
+    .toLowerCase()
+    .replace(/[\s._]+/g, "-")
+    .replace(/[^a-z0-9-]/g, "")
+    .trim();
+}
+
+function isSameModel(a, b) {
+  return normalize(a.model_name) === normalize(b.model_name) && normalize(a.provider) === normalize(b.provider);
 }
 
 function buildDiscoveredModelTemplate(discovered) {
@@ -62,10 +75,10 @@ function buildDiscoveredModelTemplate(discovered) {
     availability: "api",
     best_for: null,
     reasoning_level: "unknown",
-    last_verified: TODAY,
+    last_verified: NOW_ISO(),
     source_url: null,
     last_updated: TODAY,
-    notes: "Auto-discovered model. Needs manual verification.",
+    notes: "Auto-discovered model. Needs verification.",
   };
 }
 
@@ -83,56 +96,34 @@ function normalizeExistingModel(model) {
 
 function mergeModel(existingModel, discoveredModel) {
   const merged = { ...existingModel };
-  const missingFilled = [];
+  merged.last_verified = NOW_ISO();
+  merged.is_new = false;
 
-  // Always keep canonical IDs aligned.
   if (isMissing(merged.model_id)) {
     merged.model_id = discoveredModel.model_id;
-    missingFilled.push("model_id");
   }
 
   if (isMissing(merged.id)) {
     merged.id = merged.model_id;
-    missingFilled.push("id");
   }
 
   if (isMissing(merged.model_name)) {
     merged.model_name = discoveredModel.model_name;
-    missingFilled.push("model_name");
   }
 
   if (isMissing(merged.provider)) {
     merged.provider = discoveredModel.provider;
-    missingFilled.push("provider");
   }
 
-  // Human-in-the-loop defaults: only fill if absent.
-  if (isMissing(merged.data_quality)) {
-    merged.data_quality = "unknown";
-    missingFilled.push("data_quality");
+  if (isMissing(merged.context_window) && !isMissing(discoveredModel.context_window)) {
+    merged.context_window = discoveredModel.context_window;
   }
 
-  if (isMissing(merged.last_verified)) {
-    merged.last_verified = TODAY;
-    missingFilled.push("last_verified");
+  if (isMissing(merged.capabilities) && !isMissing(discoveredModel.capabilities)) {
+    merged.capabilities = discoveredModel.capabilities;
   }
 
-  if (isMissing(merged.notes)) {
-    merged.notes = "Needs manual verification.";
-    missingFilled.push("notes");
-  }
-
-  if (typeof merged.is_new !== "boolean") {
-    merged.is_new = false;
-    missingFilled.push("is_new");
-  }
-
-  // CRITICAL: preserve enriched data fields.
-  merged.pricing = existingModel.pricing;
-  merged.data_quality = existingModel.data_quality ?? merged.data_quality;
-  merged.notes = existingModel.notes ?? merged.notes;
-
-  return { merged, missingFilled };
+  return merged;
 }
 
 async function safelyFetch(label, fetcher) {
@@ -187,50 +178,56 @@ async function main() {
     .flatMap((result) => result.models)
     .filter((model) => model?.model_id && model?.model_name && model?.provider);
 
-  // Deduplicate by model_id (case-insensitive).
+  // Deduplicate discovered models by normalized provider+name identity.
   const discoveredById = new Map();
   for (const model of discoveredModels) {
-    discoveredById.set(model.model_id.toLowerCase(), model);
+    const key = `${normalize(model.provider)}::${normalize(model.model_name)}`;
+    if (!discoveredById.has(key)) {
+      discoveredById.set(key, model);
+    }
   }
 
-  const existingById = new Map(existingModels.map((m) => [String(m.model_id).toLowerCase(), m]));
   const mergedModels = [...existingModels];
 
   let newCount = 0;
-  let updatedCount = 0;
+  let mergedCount = 0;
 
   for (const discovered of discoveredById.values()) {
-    const key = discovered.model_id.toLowerCase();
-    const existing = existingById.get(key);
+    const existing = mergedModels.find((model) => isSameModel(model, discovered));
 
     if (!existing) {
       mergedModels.push(buildDiscoveredModelTemplate(discovered));
       newCount += 1;
-      console.log(`[NEW] ${discovered.model_id}`);
+      console.log(`[NEW] ${discovered.model_name}`);
       continue;
     }
 
-    const { merged, missingFilled } = mergeModel(existing, discovered);
-    const existingIndex = mergedModels.findIndex((m) => String(m.model_id).toLowerCase() === key);
+    const merged = mergeModel(existing, discovered);
+    const existingIndex = mergedModels.findIndex((m) => isSameModel(m, discovered));
     if (existingIndex !== -1) {
       mergedModels[existingIndex] = merged;
-    }
-
-    if (missingFilled.length > 0) {
-      updatedCount += 1;
-      console.log(`[UPDATED] ${discovered.model_id} (${missingFilled.join(", ")})`);
-    } else {
-      console.log(`[SKIPPED] ${discovered.model_id} (already exists)`);
+      mergedCount += 1;
+      console.log(`[MERGED] ${discovered.model_name}`);
     }
   }
 
-  const sortedModels = safeSortByProviderAndName(mergedModels);
+  const uniqueModels = [];
+  for (const model of mergedModels) {
+    const alreadyExists = uniqueModels.some((u) => isSameModel(u, model));
+    if (!alreadyExists) {
+      uniqueModels.push(model);
+    } else {
+      console.log(`[DEDUPED] ${model.model_name}`);
+    }
+  }
+
+  const sortedModels = safeSortByProviderAndName(uniqueModels);
 
   await saveJsonSafely(MODELS_PATH, sortedModels);
 
   console.log(`\nDone. Total models: ${sortedModels.length}`);
   console.log(`New models: ${newCount}`);
-  console.log(`Updated models: ${updatedCount}`);
+  console.log(`Merged models: ${mergedCount}`);
   console.log(`Failed sources: ${fetchResults.filter((r) => r.error).length}`);
 }
 
