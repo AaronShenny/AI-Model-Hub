@@ -46,6 +46,43 @@ async function writeJson(filename, data) {
  * The script merges this with any existing file so additions are preserved.
  * Update pricing, context windows, and rate limits here when provider docs change.
  */
+
+function normalizeModelRecord(model) {
+  const openSource = /llama|gemma|qwen|phi|mistral/i.test(`${model.model_name} ${model.model_id}`) || model.provider === "Meta";
+  const tierBasedProviders = new Set(["OpenAI", "Anthropic", "Google"]);
+  const rateType = tierBasedProviders.has(model.provider) ? "tier-based" : "unknown";
+
+  return {
+    ...model,
+    pricing: {
+      type: openSource ? "provider-dependent" : "official",
+      note: openSource
+        ? "Pricing is provider-dependent for open-source weights and self-hosted deployments."
+        : "Official pricing from provider documentation.",
+      input_price_per_1m_tokens: model.pricing?.input_price_per_1m_tokens ?? null,
+      output_price_per_1m_tokens: model.pricing?.output_price_per_1m_tokens ?? null,
+      ...(openSource ? { example_providers: ["Together AI", "Fireworks", "Replicate"] } : {}),
+    },
+    rate_limits: {
+      type: rateType,
+      note:
+        rateType === "unknown"
+          ? "Not publicly defined as universal limits. Depends on provider, account tier, and billing state."
+          : "Rate limits are tier-based and can vary by account and billing.",
+      rpm: null,
+      tpm: null,
+      rpd: null,
+    },
+    capabilities: {
+      ...model.capabilities,
+      reasoning_level: model.capabilities?.reasoning ? "high" : "medium",
+    },
+    data_quality: openSource ? "community" : "estimated",
+    availability: openSource ? "open-source" : "api",
+    last_verified: model.last_updated ?? TODAY,
+  };
+}
+
 function buildModels(existing) {
   const base = [
     {
@@ -620,14 +657,14 @@ function buildModels(existing) {
     },
   ];
 
-  if (!existing) return base;
+  if (!existing) return base.map(normalizeModelRecord);
 
   // Merge: use new data as canonical, but preserve any IDs that only exist in existing
   const existingIds = new Set(existing.map((m) => m.id));
   const newIds = new Set(base.map((m) => m.id));
   const onlyInExisting = existing.filter((m) => !newIds.has(m.id));
 
-  return [...base, ...onlyInExisting];
+  return [...base, ...onlyInExisting].map(normalizeModelRecord);
 }
 
 function buildProviders() {
@@ -658,7 +695,7 @@ function buildGlossary() {
     { term: "Output Price", short: "output_price", definition: "The cost charged for the text the model generates in response. Usually higher than input price. Measured in dollars per 1 million tokens.", unit: "$/1M tokens" },
     { term: "Token", short: "token", definition: "The basic unit of text that AI models process. Roughly 4 characters or 0.75 words in English. A page of text is approximately 500 tokens. Both input and output are measured in tokens.", unit: null },
     { term: "Function Calling", short: "function_calling", definition: "A capability that lets the model call predefined functions or tools, enabling it to interact with external systems, APIs, or databases. Essential for building AI agents.", unit: null },
-    { term: "Reasoning", short: "reasoning", definition: "Extended chain-of-thought processing where the model thinks through problems step-by-step before giving a final answer. Improves accuracy on math, science, and logic tasks.", unit: null },
+    { term: "Reasoning Level", short: "reasoning_level", definition: "A qualitative signal for reasoning depth: low, medium, or high.", unit: null },
     { term: "MoE", short: "moe", definition: "Mixture of Experts — a model architecture where only a subset of parameters are activated for each input. This allows very large total parameter counts while keeping inference costs manageable.", unit: null },
     { term: "RAG", short: "rag", definition: "Retrieval-Augmented Generation — a technique where relevant documents are retrieved from a knowledge base and included in the prompt, allowing the model to answer questions about private or up-to-date information.", unit: null },
   ];
