@@ -1,6 +1,6 @@
-export type PricingType = "official" | "provider-dependent" | "estimated";
+export type PricingType = "official" | "provider-dependent" | "estimated" | "unknown";
 export type RateLimitType = "official" | "tier-based" | "unknown";
-export type ReasoningLevel = "low" | "medium" | "high";
+export type ReasoningLevel = "low" | "medium" | "high" | "unknown";
 export type DataQuality = "official" | "estimated" | "community" | "unknown";
 export type Availability = "api" | "open-source" | "hosted";
 
@@ -46,6 +46,7 @@ export interface AIModel {
   source_url: string | null;
   last_updated: string | null;
   notes: string | null;
+  is_new?: boolean;
 }
 
 export interface Provider {

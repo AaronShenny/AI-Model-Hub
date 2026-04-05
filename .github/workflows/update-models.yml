@@ -24,14 +24,14 @@ jobs:
         run: npm install --prefix scripts-data
 
       - name: Run fetch script
-        run: node scripts-data/fetch-models.js
+        run: node scripts-data/fetch-models.js | tee fetch-models.log
 
-      - name: Commit updated data
+      - name: Commit updated models
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add artifacts/ai-model-directory/public/data/
-          git diff --staged --quiet || git commit -m "chore: update AI model data [$(date -u +'%Y-%m-%d')]"
+          git add artifacts/ai-model-directory/public/data/models.json
+          git diff --staged --quiet || git commit -m "chore: update models.json [$(date -u +'%Y-%m-%d')]"
 
       - name: Push changes
         uses: ad-m/github-push-action@master

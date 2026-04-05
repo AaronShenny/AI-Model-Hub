@@ -31,7 +31,15 @@ export function getDataQualityBadge(dataQuality: DataQuality) {
 }
 
 export function pricingHeadline(model: AIModel) {
-  return model.pricing.type === "official" ? "Official Pricing" : "Varies by provider";
+  if (model.pricing.type === "official") {
+    return "Official Pricing";
+  }
+
+  if (model.pricing.type === "unknown") {
+    return "Pricing not yet verified";
+  }
+
+  return "Varies by provider";
 }
 
 export function displayValue<T>(value: T | null | undefined, fallback = "Not available") {
