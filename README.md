@@ -1,154 +1,117 @@
-# AI Model Directory
+# AI Model Hub
 
-A production-ready, searchable directory of AI models from the world's top providers — including OpenAI, Anthropic, Google, Mistral, Meta, DeepSeek, Cohere, xAI, Perplexity, Alibaba, Together AI, and Microsoft.
+A modern, open-source directory for discovering, comparing, and evaluating leading AI models across major providers.
 
-## Features
+## Why this project exists
 
-- **40+ models** from 13 major providers, with full specs
-- **Search** by model name, provider, specialty, or use case
-- **Filter** by provider, capability, context window, and price
-- **Sort** by cheapest, largest context, newest, provider, or name
-- **Grid & table views** for browsing models
-- **Model detail pages** with full specs, pricing, rate limits, and capabilities
-- **Side-by-side comparison** for up to 4 models
-- **Glossary** page with definitions for all technical terms
-- **Hover tooltips** on technical terms (context window, RPM, TPM, RPD, tokens, pricing)
-- **Responsive design** for mobile and desktop
+Choosing the right model is hard. Specs are scattered, pricing changes often, and capabilities differ by provider. **AI Model Hub** brings this information together in one place so builders can make faster, better decisions.
 
----
+## What you can do
 
-## Technical Terms Explained
+- Search models by name, provider, and use case
+- Filter by capabilities, context window, and price
+- Compare multiple models side-by-side
+- Explore glossary definitions for key AI terms
+- Browse a responsive UI built for quick research
 
-### Context Window
-The maximum number of **tokens** a model can process in one request, including both your input and the model's output. Larger context windows let you process longer documents or conversations.
+## Tech stack
 
-### Rate Limit
-The maximum API usage allowed in a given time period. Exceeding it causes temporary request rejections. Measured as:
-- **RPM** — Requests Per Minute
-- **TPM** — Tokens Per Minute  
-- **RPD** — Requests Per Day
+- **Frontend:** React + Vite + TypeScript
+- **Backend artifact:** Express + TypeScript (optional API components)
+- **Data source:** Static JSON data generated via scripts
+- **Monorepo:** pnpm workspaces
 
-### Token
-The basic unit AI models process. ~4 characters or 0.75 words in English. One page of text ≈ 500 tokens.
+## Project structure
 
-### Pricing per 1M Tokens
-The cost to process one million tokens. Input (your prompt) and output (model response) are priced separately. Output is typically more expensive.
+```txt
+artifacts/ai-model-directory/    # Main web app
+artifacts/api-server/            # API server artifact
+scripts-data/                    # Data update scripts
+lib/                             # Shared packages (DB, API spec/clients)
+```
 
----
+## Quick start
 
-## Data Pipeline
+### Prerequisites
 
-Model data is stored as static JSON files in `artifacts/ai-model-directory/public/data/`:
+- Node.js 24+
+- pnpm 10+
 
-| File | Contents |
-|------|----------|
-| `models.json` | All AI models with full specs, pricing, capabilities |
-| `providers.json` | Provider metadata (name, website, description) |
-| `glossary.json` | Technical term definitions |
+### Install dependencies
 
-### Updating Data
+```bash
+pnpm install
+```
 
-Run the update script manually:
+### Run the app locally
+
+```bash
+pnpm --filter @workspace/ai-model-directory run dev
+```
+
+### Build
+
+```bash
+pnpm run build
+```
+
+### Typecheck
+
+```bash
+pnpm run typecheck
+```
+
+## Data updates
+
+Refresh provider/model/glossary data:
 
 ```bash
 node scripts-data/fetch-models.js
 ```
 
-This updates all three JSON files. Safe to run at any time — if one file fails, others continue. Missing values stay as `null`.
+## Contributing
+
+We welcome contributions of all sizes — from typo fixes to major features.
+
+### Ways to contribute
+
+- Add or update model entries
+- Improve filtering/sorting UX
+- Fix bugs and improve performance
+- Improve docs and glossary clarity
+- Add tests and strengthen reliability
+
+### Contribution workflow
+
+1. Fork the repo
+2. Create a feature branch (`feat/your-change`)
+3. Make focused commits with clear messages
+4. Run build + typecheck before opening PR
+5. Open a pull request with:
+   - what changed
+   - why it matters
+   - screenshots (if UI changes)
+
+## Donations & sponsorship
+
+If this project saves you time or helps your team, consider supporting development.
+
+- **GitHub Sponsors:** add your profile/org sponsor link
+- **Buy Me a Coffee / Ko-fi:** add your donation link
+- **Company sponsorships:** open an issue to discuss partnership support
+
+> Maintainers: replace the placeholder links above with your real funding URLs.
+
+## Community & support
+
+- Open an issue for bugs or feature requests
+- Start a discussion for roadmap ideas
+- Tag PRs with clear context so reviewers can help quickly
+
+## License
+
+Choose and add your preferred license (MIT/Apache-2.0 recommended for open collaboration).
 
 ---
 
-## GitHub Actions Automation
-
-The workflow at `.github/workflows/update-models.yml` runs daily at **1:00 AM IST (19:30 UTC)**.
-
-It:
-1. Checks out the repository
-2. Runs `node scripts-data/fetch-models.js`
-3. Commits updated JSON files
-4. Pushes back to the repo
-
-To trigger manually: **Actions → Update AI Model Data → Run workflow**
-
----
-
-## Project Structure
-
-```
-artifacts/ai-model-directory/
-├── public/
-│   └── data/
-│       ├── models.json         # Model data
-│       ├── providers.json      # Provider metadata
-│       └── glossary.json       # Term definitions
-├── src/
-│   ├── components/
-│   │   ├── CapabilityBadge.tsx
-│   │   ├── FilterPanel.tsx
-│   │   ├── GlossaryTooltip.tsx
-│   │   ├── ModelCard.tsx
-│   │   └── Navbar.tsx
-│   ├── hooks/
-│   │   └── useData.ts          # Data fetching hooks
-│   ├── pages/
-│   │   ├── Directory.tsx       # Main listing page
-│   │   ├── ModelDetail.tsx     # Single model detail
-│   │   ├── Compare.tsx         # Side-by-side comparison
-│   │   └── Glossary.tsx        # Term definitions
-│   ├── utils/
-│   │   └── format.ts           # Number/date formatting
-│   ├── types.ts                # TypeScript types
-│   ├── App.tsx                 # Router setup
-│   └── index.css               # Theme variables
-scripts-data/
-└── fetch-models.js             # Data update script
-.github/workflows/
-└── update-models.yml           # GitHub Actions workflow
-```
-
----
-
-## Deployment (GitHub Pages)
-
-The app is a static React + Vite app. To deploy to GitHub Pages:
-
-1. Set `base` in `vite.config.ts` to your repo path (e.g., `/ai-model-directory/`)
-2. Run `pnpm --filter @workspace/ai-model-directory run build`
-3. Deploy the `dist/public` folder to GitHub Pages
-4. Set `BASE_PATH` env var to match your GitHub Pages URL path
-
-The app has no backend dependency at runtime — all data is served from the static JSON files.
-
----
-
-## Adding New Models
-
-Edit `scripts-data/fetch-models.js` and add an entry to the `base` array inside `buildModels()`. The script preserves existing entries not in the base list, so you can safely add models without losing any existing data.
-
-Each model entry follows this schema:
-
-```json
-{
-  "id": "unique-slug",
-  "provider": "Provider Name",
-  "model_name": "Display Name",
-  "model_id": "api-model-id",
-  "specialty": "What it's good at",
-  "context_window": 128000,
-  "pricing": {
-    "input_price_per_1m_tokens": 1.00,
-    "output_price_per_1m_tokens": 3.00
-  },
-  "rate_limits": { "rpm": 1000, "tpm": 100000, "rpd": null },
-  "capabilities": {
-    "text": true, "vision": false, "audio": false,
-    "code": true, "function_calling": true, "reasoning": false
-  },
-  "best_for": "Short description of ideal use cases",
-  "source_url": "https://docs.example.com/models",
-  "last_updated": "2025-01-01",
-  "notes": "Any extra context"
-}
-```
-
-Use `null` for any value you don't know. Never invent values.
+If you find this repository useful, please ⭐ the project and share it with other builders.
