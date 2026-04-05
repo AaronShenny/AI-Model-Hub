@@ -1,12 +1,14 @@
 import { Link, useLocation } from "wouter";
-import { Bot, GitCompare, Menu, X } from "lucide-react";
+import { Bot, GitCompare, Menu, X, Sun, Moon } from "lucide-react";
 import { useState } from "react";
 
 interface Props {
   compareCount: number;
+  theme: "light" | "dark";
+  onToggleTheme: () => void;
 }
 
-export function Navbar({ compareCount }: Props) {
+export function Navbar({ compareCount, theme, onToggleTheme }: Props) {
   const [location] = useLocation();
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -44,15 +46,44 @@ export function Navbar({ compareCount }: Props) {
                 )}
               </Link>
             ))}
+
+            <button
+              type="button"
+              onClick={onToggleTheme}
+              title={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+              className="ml-1 p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+              aria-label="Toggle theme"
+            >
+              {theme === "dark" ? (
+                <Sun className="w-4 h-4" />
+              ) : (
+                <Moon className="w-4 h-4" />
+              )}
+            </button>
           </div>
 
-          <button
-            type="button"
-            className="sm:hidden p-2 rounded-lg hover:bg-muted text-foreground"
-            onClick={() => setMobileOpen(!mobileOpen)}
-          >
-            {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-          </button>
+          <div className="flex sm:hidden items-center gap-1">
+            <button
+              type="button"
+              onClick={onToggleTheme}
+              title={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
+              className="p-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition-colors"
+              aria-label="Toggle theme"
+            >
+              {theme === "dark" ? (
+                <Sun className="w-4 h-4" />
+              ) : (
+                <Moon className="w-4 h-4" />
+              )}
+            </button>
+            <button
+              type="button"
+              className="p-2 rounded-lg hover:bg-muted text-foreground"
+              onClick={() => setMobileOpen(!mobileOpen)}
+            >
+              {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            </button>
+          </div>
         </div>
 
         {mobileOpen && (

@@ -4,6 +4,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Navbar } from "@/components/Navbar";
+import { useTheme } from "@/hooks/useTheme";
 import Directory from "@/pages/Directory";
 import ModelDetail from "@/pages/ModelDetail";
 import Compare from "@/pages/Compare";
@@ -14,6 +15,7 @@ const queryClient = new QueryClient();
 
 function AppRoutes() {
   const [compareIds, setCompareIds] = useState<string[]>([]);
+  const { theme, toggle } = useTheme();
 
   function toggleCompare(id: string) {
     setCompareIds((prev) =>
@@ -27,7 +29,7 @@ function AppRoutes() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <Navbar compareCount={compareIds.length} />
+      <Navbar compareCount={compareIds.length} theme={theme} onToggleTheme={toggle} />
       <main>
         <Switch>
           <Route path="/">
