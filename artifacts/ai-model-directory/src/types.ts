@@ -1,9 +1,26 @@
+export type PricingType = "official" | "provider-dependent" | "estimated";
+export type RateLimitType = "official" | "tier-based" | "unknown";
+export type ReasoningLevel = "low" | "medium" | "high";
+export type DataQuality = "official" | "estimated" | "community" | "unknown";
+export type Availability = "api" | "open-source" | "hosted";
+
+export interface PricingExample {
+  provider: string;
+  input: number;
+  output: number;
+}
+
 export interface ModelPricing {
+  type: PricingType;
+  note: string;
   input_price_per_1m_tokens: number | null;
   output_price_per_1m_tokens: number | null;
+  examples: PricingExample[];
 }
 
 export interface ModelRateLimits {
+  type: RateLimitType;
+  note: string;
   rpm: number | null;
   tpm: number | null;
   rpd: number | null;
@@ -15,7 +32,7 @@ export interface ModelCapabilities {
   audio: boolean;
   code: boolean;
   function_calling: boolean;
-  reasoning: boolean;
+  reasoning_level: ReasoningLevel;
 }
 
 export interface AIModel {
@@ -28,6 +45,9 @@ export interface AIModel {
   pricing: ModelPricing;
   rate_limits: ModelRateLimits;
   capabilities: ModelCapabilities;
+  data_quality: DataQuality;
+  availability: Availability;
+  last_verified: string | null;
   best_for: string | null;
   source_url: string | null;
   last_updated: string | null;

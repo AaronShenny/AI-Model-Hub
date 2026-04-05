@@ -2,7 +2,7 @@ import { Link } from "wouter";
 import { ArrowLeft, X, CheckCircle2, XCircle } from "lucide-react";
 import { useModels } from "@/hooks/useData";
 import { GlossaryTooltip } from "@/components/GlossaryTooltip";
-import { formatContextWindow, formatPrice, formatLargeNumber } from "@/utils/format";
+import { formatContextWindow, formatLargeNumber } from "@/utils/format";
 
 interface Props {
   compareIds: string[];
@@ -15,7 +15,7 @@ const CAP_LABELS: [string, string][] = [
   ["audio", "Audio"],
   ["code", "Code"],
   ["function_calling", "Function Calling"],
-  ["reasoning", "Reasoning"],
+  ["reasoning_level", "Reasoning Level"],
 ];
 
 export default function Compare({ compareIds, onToggleCompare }: Props) {
@@ -109,7 +109,7 @@ export default function Compare({ compareIds, onToggleCompare }: Props) {
                       key={m.id}
                       className={`px-4 py-3 font-medium ${isBest ? "text-green-600 dark:text-green-400" : ""}`}
                     >
-                      {m.context_window ? formatContextWindow(m.context_window) : "—"}
+                      {m.context_window ? formatContextWindow(m.context_window) : "Not available"}
                       {isBest && selected.length > 1 && (
                         <span className="ml-1 text-xs text-green-600/60">↑</span>
                       )}
@@ -132,7 +132,7 @@ export default function Compare({ compareIds, onToggleCompare }: Props) {
                     >
                       {m.pricing.input_price_per_1m_tokens != null
                         ? `$${m.pricing.input_price_per_1m_tokens.toFixed(3)}`
-                        : "—"}
+                        : "Not available"}
                       {isBest && selected.length > 1 && m.pricing.input_price_per_1m_tokens != null && (
                         <span className="ml-1 text-xs text-green-600/60">↓</span>
                       )}
@@ -155,7 +155,7 @@ export default function Compare({ compareIds, onToggleCompare }: Props) {
                     >
                       {m.pricing.output_price_per_1m_tokens != null
                         ? `$${m.pricing.output_price_per_1m_tokens.toFixed(3)}`
-                        : "—"}
+                        : "Not available"}
                       {isBest && selected.length > 1 && m.pricing.output_price_per_1m_tokens != null && (
                         <span className="ml-1 text-xs text-green-600/60">↓</span>
                       )}
@@ -169,7 +169,7 @@ export default function Compare({ compareIds, onToggleCompare }: Props) {
                 </td>
                 {selected.map((m) => (
                   <td key={m.id} className="px-4 py-3">
-                    {m.rate_limits.rpm != null ? formatLargeNumber(m.rate_limits.rpm) : "—"}
+                    {m.rate_limits.rpm != null ? formatLargeNumber(m.rate_limits.rpm) : "Not available"}
                   </td>
                 ))}
               </tr>
@@ -179,7 +179,7 @@ export default function Compare({ compareIds, onToggleCompare }: Props) {
                 </td>
                 {selected.map((m) => (
                   <td key={m.id} className="px-4 py-3">
-                    {m.rate_limits.tpm != null ? formatLargeNumber(m.rate_limits.tpm) : "—"}
+                    {m.rate_limits.tpm != null ? formatLargeNumber(m.rate_limits.tpm) : "Not available"}
                   </td>
                 ))}
               </tr>
@@ -190,19 +190,17 @@ export default function Compare({ compareIds, onToggleCompare }: Props) {
                     <div className="space-y-1.5">
                       {CAP_LABELS.map(([key, label]) => (
                         <div key={key} className="flex items-center gap-1.5 text-xs">
-                          {m.capabilities[key as keyof typeof m.capabilities] ? (
+                          {(key === "reasoning_level" ? m.capabilities.reasoning_level !== "low" : m.capabilities[key as keyof typeof m.capabilities]) ? (
                             <CheckCircle2 className="w-3.5 h-3.5 text-green-500 flex-shrink-0" />
                           ) : (
                             <XCircle className="w-3.5 h-3.5 text-muted-foreground/30 flex-shrink-0" />
                           )}
                           <span
                             className={
-                              m.capabilities[key as keyof typeof m.capabilities]
-                                ? "text-foreground"
-                                : "text-muted-foreground/50"
+                              (key === "reasoning_level" ? "text-foreground" : (m.capabilities[key as keyof typeof m.capabilities] ? "text-foreground" : "text-muted-foreground/50"))
                             }
                           >
-                            {label}
+                            {key === "reasoning_level" ? `Reasoning: ${m.capabilities.reasoning_level}` : label}
                           </span>
                         </div>
                       ))}
@@ -214,7 +212,7 @@ export default function Compare({ compareIds, onToggleCompare }: Props) {
                 <td className="px-4 py-3 text-muted-foreground font-medium bg-muted/10 align-top">Notes</td>
                 {selected.map((m) => (
                   <td key={m.id} className="px-4 py-3 text-xs text-muted-foreground">
-                    {m.notes ?? "—"}
+                    {m.notes ?? "Not available"}
                   </td>
                 ))}
               </tr>
