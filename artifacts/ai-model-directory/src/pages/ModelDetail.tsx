@@ -3,6 +3,7 @@ import { ArrowLeft, ExternalLink, BookmarkPlus, BookmarkCheck, CheckCircle2, XCi
 import { useModels } from "@/hooks/useData";
 import { GlossaryTooltip, InfoIcon } from "@/components/GlossaryTooltip";
 import { CapabilityBadge } from "@/components/CapabilityBadge";
+import { ReviewSection } from "@/components/ReviewSection";
 import { formatContextWindow, formatPrice, formatDate, formatLargeNumber } from "@/utils/format";
 
 interface Props {
@@ -234,6 +235,8 @@ export default function ModelDetail({ compareIds, onToggleCompare }: Props) {
           <p className="text-sm text-muted-foreground">{model.notes}</p>
         </div>
       )}
+
+      <ReviewSection modelId={model.id} modelName={model.model_name} />
     </div>
   );
 }
