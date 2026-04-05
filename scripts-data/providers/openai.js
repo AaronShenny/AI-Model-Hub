@@ -1,36 +1,15 @@
 /**
  * Real OpenAI model fetcher using the official Models API.
- *
- * Requires:
- *   - OPENAI_API_KEY in server env
- *   - Node 18+ (global fetch) or a fetch polyfill
- *
- * Notes:
- *   - The Models API returns basic model metadata only.
- *   - Pricing, context window, and rate limits are not returned by /v1/models.
- *   - Keep those fields null/unknown unless you enrich them from the model docs pages.
  */
 
 const OPENAI_MODELS_URL = "https://api.openai.com/v1/models";
 const OPENAI_SOURCE_URL = "https://platform.openai.com/docs/api-reference/models";
 
-type OpenAIApiModel = {
-  id: string;
-  created?: number;
-  owned_by?: string;
-  object?: string;
-};
-
-type OpenAIModelsResponse = {
-  object?: string;
-  data: OpenAIApiModel[];
-};
-
-function toIso(ts?: number | null) {
+function toIso(ts) {
   return typeof ts === "number" ? new Date(ts * 1000).toISOString() : null;
 }
 
-function inferSpecialty(modelId: string): string | null {
+function inferSpecialty(modelId) {
   const id = modelId.toLowerCase();
 
   if (id.startsWith("o")) return "reasoning";
@@ -43,7 +22,7 @@ function inferSpecialty(modelId: string): string | null {
   return null;
 }
 
-function inferCapabilities(modelId: string) {
+function inferCapabilities(modelId) {
   const id = modelId.toLowerCase();
   const isReasoning = id.startsWith("o");
   const isMultimodal = id.includes("4o") || id.includes("omni");
@@ -54,11 +33,11 @@ function inferCapabilities(modelId: string) {
     audio: id.includes("audio"),
     code: true,
     function_calling: true,
-    reasoning: isReasoning ? "high" : "medium",
+    reasoning_level: isReasoning ? "high" : "medium",
   };
 }
 
-function normalizeOpenAIModel(model: OpenAIApiModel) {
+function normalizeOpenAIModel(model) {
   const id = model.id;
 
   return {
@@ -68,7 +47,6 @@ function normalizeOpenAIModel(model: OpenAIApiModel) {
 
     specialty: inferSpecialty(id),
 
-    // Keep these honest; do not guess from the models list endpoint.
     context_window: null,
     max_output_tokens: null,
 
@@ -77,7 +55,7 @@ function normalizeOpenAIModel(model: OpenAIApiModel) {
       input_price_per_1m_tokens: null,
       output_price_per_1m_tokens: null,
       note:
-        "Pricing is not returned by the OpenAI Models API. Use the model pricing page for current numbers.",
+        "Pricing is not returned by the OpenAI Models API. Refer to official pricing page.",
       examples: [],
     },
 
@@ -87,7 +65,7 @@ function normalizeOpenAIModel(model: OpenAIApiModel) {
       tpm: null,
       rpd: null,
       note:
-        "Rate limits vary by account tier and are shown on model/rate-limit pages, not the Models API.",
+        "Rate limits vary by account tier and are not exposed via the models API.",
     },
 
     capabilities: inferCapabilities(id),
@@ -95,16 +73,18 @@ function normalizeOpenAIModel(model: OpenAIApiModel) {
     availability: "api",
     data_quality: "official",
     source_url: OPENAI_SOURCE_URL,
+
     last_updated: toIso(model.created),
     last_verified: new Date().toISOString(),
 
-    notes: `Owned by ${model.owned_by ?? "OpenAI"}`,
+    notes: `Owned by ${model.owned_by || "OpenAI"}`,
     raw: model,
   };
 }
 
 export async function fetchOpenAIModels() {
   const apiKey = process.env.OPENAI_API_KEY;
+
   if (!apiKey) {
     throw new Error("Missing OPENAI_API_KEY");
   }
@@ -124,13 +104,13 @@ export async function fetchOpenAIModels() {
     );
   }
 
-  const json = (await res.json()) as OpenAIModelsResponse;
+  const json = await res.json();
   const models = Array.isArray(json.data) ? json.data : [];
 
   const mapped = models.map(normalizeOpenAIModel);
 
-  // Deduplicate by model_id
-  const unique = new Map<string, (typeof mapped)[number]>();
+  // 🔥 Better dedupe using model_id
+  const unique = new Map();
   for (const model of mapped) {
     unique.set(model.model_id, model);
   }
