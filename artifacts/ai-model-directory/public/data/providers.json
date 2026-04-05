@@ -82,12 +82,5 @@
     "website": "https://huggingface.co/microsoft",
     "description": "Creator of the Phi small language model family.",
     "logo_color": "#0078d4"
-  },
-  {
-    "id": "nomic",
-    "name": "Nomic",
-    "website": "https://docs.nomic.ai",
-    "description": "Embedding model provider focused on long-context embeddings.",
-    "logo_color": "#22c55e"
   }
 ]
