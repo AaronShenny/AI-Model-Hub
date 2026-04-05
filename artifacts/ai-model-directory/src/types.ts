@@ -29,6 +29,13 @@ export interface ModelCapabilities {
   reasoning_level: ReasoningLevel;
 }
 
+export interface ModelReview {
+  rating: number;
+  comment: string;
+  date: string;
+  username?: string;
+}
+
 export interface AIModel {
   id: string;
   provider: string;
@@ -47,6 +54,7 @@ export interface AIModel {
   last_updated: string | null;
   notes: string | null;
   is_new?: boolean;
+  reviews: ModelReview[];
 }
 
 export interface Provider {

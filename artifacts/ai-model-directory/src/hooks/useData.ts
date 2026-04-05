@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import type { AIModel, Provider, GlossaryEntry, PricingExample } from "@/types";
+import { useState, useEffect, useCallback } from "react";
+import type { AIModel, Provider, GlossaryEntry } from "@/types";
 
 const BASE = import.meta.env.BASE_URL;
 
@@ -39,6 +39,16 @@ function normalizeModel(model: any): AIModel {
     data_quality: model.data_quality ?? (openSource ? "community" : "estimated"),
     availability: model.availability ?? (openSource ? "open-source" : "api"),
     last_verified: model.last_verified ?? model.last_updated ?? null,
+    reviews: Array.isArray(model.reviews)
+      ? model.reviews
+          .map((review: any) => ({
+            rating: Number(review.rating),
+            comment: String(review.comment ?? "").trim(),
+            date: String(review.date ?? "").trim(),
+            username: review.username ? String(review.username).trim() : undefined,
+          }))
+          .filter((review: any) => review.rating >= 1 && review.rating <= 5 && review.comment && review.date)
+      : [],
   };
 }
 
@@ -47,20 +57,24 @@ export function useModels() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  const refetchModels = useCallback(async () => {
+    const response = await fetch(dataUrl("models.json"), { cache: "no-store" });
+    const data = await response.json();
+    setModels((data as any[]).map(normalizeModel));
+  }, []);
+
   useEffect(() => {
-    fetch(dataUrl("models.json"))
-      .then((r) => r.json())
-      .then((data) => {
-        setModels((data as any[]).map(normalizeModel));
+    refetchModels()
+      .then(() => {
         setLoading(false);
       })
       .catch((e) => {
         setError(e.message);
         setLoading(false);
       });
-  }, []);
+  }, [refetchModels]);
 
-  return { models, loading, error };
+  return { models, loading, error, refetchModels };
 }
 
 export function useProviders() {
