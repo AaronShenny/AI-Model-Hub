@@ -1,0 +1,93 @@
+[
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "website": "https://platform.openai.com",
+    "description": "Creator of the GPT and o-series models. Industry leader in AI research.",
+    "logo_color": "#10a37f"
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "website": "https://docs.anthropic.com",
+    "description": "Safety-focused AI research company behind the Claude model family.",
+    "logo_color": "#d4a852"
+  },
+  {
+    "id": "google",
+    "name": "Google",
+    "website": "https://ai.google.dev",
+    "description": "Creator of Gemini models and open-source Gemma family.",
+    "logo_color": "#4285f4"
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral",
+    "website": "https://docs.mistral.ai",
+    "description": "European AI company known for open and commercial models.",
+    "logo_color": "#f4a118"
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "website": "https://llama.meta.com",
+    "description": "Open-source AI leader with the Llama model family.",
+    "logo_color": "#0866ff"
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "website": "https://platform.deepseek.com",
+    "description": "Chinese AI company known for cost-efficient and capable models.",
+    "logo_color": "#5e5cfa"
+  },
+  {
+    "id": "cohere",
+    "name": "Cohere",
+    "website": "https://docs.cohere.com",
+    "description": "Enterprise-focused AI company specializing in RAG and embeddings.",
+    "logo_color": "#d946ef"
+  },
+  {
+    "id": "xai",
+    "name": "xAI",
+    "website": "https://docs.x.ai",
+    "description": "Elon Musk's AI company behind the Grok model series.",
+    "logo_color": "#1c1c1c"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "website": "https://docs.perplexity.ai",
+    "description": "AI search company with web-augmented Sonar models.",
+    "logo_color": "#20b2aa"
+  },
+  {
+    "id": "alibaba",
+    "name": "Alibaba",
+    "website": "https://huggingface.co/Qwen",
+    "description": "Alibaba Cloud's AI division, creators of the Qwen model family.",
+    "logo_color": "#ff6a00"
+  },
+  {
+    "id": "together",
+    "name": "Together AI",
+    "website": "https://www.together.ai",
+    "description": "Cloud provider hosting popular open-source models at competitive pricing.",
+    "logo_color": "#7b5ea7"
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "website": "https://huggingface.co/microsoft",
+    "description": "Creator of the Phi small language model family.",
+    "logo_color": "#0078d4"
+  },
+  {
+    "id": "nomic",
+    "name": "Nomic",
+    "website": "https://docs.nomic.ai",
+    "description": "Embedding model provider focused on long-context embeddings.",
+    "logo_color": "#22c55e"
+  }
+]

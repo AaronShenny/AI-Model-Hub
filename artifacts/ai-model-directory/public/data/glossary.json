@@ -1,0 +1,74 @@
+[
+  {
+    "term": "Context Window",
+    "short": "context_window",
+    "definition": "The maximum number of tokens (words/characters) a model can process in a single request, including both input and output. A larger context window lets you feed in longer documents, conversations, or codebases at once.",
+    "unit": "tokens"
+  },
+  {
+    "term": "Rate Limit",
+    "short": "rate_limit",
+    "definition": "The maximum amount of API usage allowed in a given time period. It may be measured as requests per minute (RPM), tokens per minute (TPM), or requests per day (RPD). Exceeding limits causes requests to be temporarily rejected.",
+    "unit": null
+  },
+  {
+    "term": "RPM",
+    "short": "rpm",
+    "definition": "Requests Per Minute — the maximum number of API calls you can make in a 60-second window. Exceeding this limit results in rate-limit errors until the window resets.",
+    "unit": "requests/minute"
+  },
+  {
+    "term": "TPM",
+    "short": "tpm",
+    "definition": "Tokens Per Minute — the maximum number of tokens (input + output combined) that can be processed per minute. This limits the total throughput of text processed by the API.",
+    "unit": "tokens/minute"
+  },
+  {
+    "term": "RPD",
+    "short": "rpd",
+    "definition": "Requests Per Day — the maximum number of API calls allowed over a 24-hour period. A daily cap in addition to per-minute limits.",
+    "unit": "requests/day"
+  },
+  {
+    "term": "Input Price",
+    "short": "input_price",
+    "definition": "The cost charged for the text you send to the model (your prompt, documents, conversation history). Measured in dollars per 1 million tokens.",
+    "unit": "$/1M tokens"
+  },
+  {
+    "term": "Output Price",
+    "short": "output_price",
+    "definition": "The cost charged for the text the model generates in response. Usually higher than input price. Measured in dollars per 1 million tokens.",
+    "unit": "$/1M tokens"
+  },
+  {
+    "term": "Token",
+    "short": "token",
+    "definition": "The basic unit of text that AI models process. Roughly 4 characters or 0.75 words in English. A page of text is approximately 500 tokens. Both input and output are measured in tokens.",
+    "unit": null
+  },
+  {
+    "term": "Function Calling",
+    "short": "function_calling",
+    "definition": "A capability that lets the model call predefined functions or tools, enabling it to interact with external systems, APIs, or databases. Essential for building AI agents.",
+    "unit": null
+  },
+  {
+    "term": "Reasoning",
+    "short": "reasoning",
+    "definition": "Extended chain-of-thought processing where the model thinks through problems step-by-step before giving a final answer. Improves accuracy on math, science, and logic tasks.",
+    "unit": null
+  },
+  {
+    "term": "MoE",
+    "short": "moe",
+    "definition": "Mixture of Experts — a model architecture where only a subset of parameters are activated for each input. This allows very large total parameter counts while keeping inference costs manageable.",
+    "unit": null
+  },
+  {
+    "term": "RAG",
+    "short": "rag",
+    "definition": "Retrieval-Augmented Generation — a technique where relevant documents are retrieved from a knowledge base and included in the prompt, allowing the model to answer questions about private or up-to-date information.",
+    "unit": null
+  }
+]

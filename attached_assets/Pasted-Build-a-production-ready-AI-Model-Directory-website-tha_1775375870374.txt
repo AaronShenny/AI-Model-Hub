@@ -1,0 +1,159 @@
+Build a production-ready AI Model Directory website that includes as many popular AI models as possible, with a structure that can scale to hundreds of models.
+
+Important:
+- The site must be static-friendly and deployable on GitHub Pages.
+- Data must be generated into JSON files by an automation script.
+- The app must never depend on a live backend at runtime on GitHub Pages.
+
+Tech stack:
+- Frontend: React + Vite or Next.js static export
+- Styling: Tailwind CSS
+- Data format: JSON
+- Automation: Node.js scripts + GitHub Actions
+- Deployment: GitHub Pages
+
+Core goal:
+Create a centralized directory of AI models from popular providers like OpenAI, Google Gemini, Anthropic, Mistral, Meta, DeepSeek, Cohere, xAI, Together, Perplexity, and others where official/public data is available.
+
+Data requirements for each model:
+- provider
+- model_name
+- model_id
+- specialty
+- context_window
+- pricing:
+  - input_price_per_1m_tokens
+  - output_price_per_1m_tokens
+- rate_limits:
+  - rpm
+  - tpm
+  - rpd if available
+- capabilities:
+  - text
+  - vision
+  - audio
+  - code
+  - function calling
+  - reasoning
+- best_for
+- source_url
+- last_updated
+- notes
+
+Model coverage:
+- Include all major popular models that can reasonably be tracked from official or trustworthy sources.
+- Structure the project so new models can be added easily.
+- Seed the initial dataset with many well-known models, not just a few examples.
+- Prefer completeness, but do not invent missing values. Use null when data is unavailable.
+
+UI requirements:
+1. Directory page showing all models in cards or a table.
+2. Search by model name or provider.
+3. Filter by:
+   - provider
+   - capability
+   - context window
+   - price range
+   - specialty
+4. Sort by:
+   - cheapest
+   - largest context
+   - newest update
+   - provider
+5. Model detail page with:
+   - full specs
+   - pricing
+   - rate limits
+   - capabilities
+   - sources
+   - notes
+6. Compare page for multiple models.
+7. Responsive design for mobile and desktop.
+
+Tooltip requirement:
+- Add hover tooltips for technical terms like:
+  - rate limit
+  - context window
+  - input tokens
+  - output tokens
+  - RPM
+  - TPM
+  - RPD
+  - pricing per 1M tokens
+- When the cursor hovers over the term "rate limit", show a clear explanation:
+  "Rate limit is the maximum amount of API usage allowed in a given time period. It may be measured as requests per minute, tokens per minute, or requests per day."
+- Use small info icons or underlined terms with hover popovers.
+- Tooltips must be visible on desktop and accessible on mobile through tap or focus.
+
+Automation requirements:
+1. Create a Node.js script at `scripts/fetch-models.js`.
+2. The script should gather or update model data from official provider sources where possible.
+3. Save the compiled data to:
+   - `public/data/models.json`
+   - `public/data/providers.json`
+   - `public/data/glossary.json`
+4. The script should run safely even if one source fails.
+5. Keep all missing values as null instead of breaking the app.
+6. Add timestamps for updates.
+
+GitHub Actions requirements:
+1. Add a workflow at `.github/workflows/update-models.yml`
+2. Schedule it to run every day at 1:00 AM IST.
+   Use 19:30 UTC in the cron schedule.
+3. The workflow should:
+   - checkout the repo
+   - install dependencies
+   - run the fetch script
+   - commit updated JSON files
+   - push changes back to the repo
+4. Trigger it manually with workflow_dispatch too.
+
+GitHub Pages requirements:
+1. Make the frontend deployable to GitHub Pages.
+2. Use static JSON files from the repo.
+3. Make routing work on GitHub Pages.
+4. Ensure the app works without any backend server.
+5. Include a simple fallback route setup if needed.
+
+Project structure:
+- src/components
+- src/pages or app
+- src/data or public/data
+- scripts
+- .github/workflows
+- README.md
+
+Seed data:
+Include many popular models from major providers such as:
+- Gemini family
+- GPT family
+- Claude family
+- Mistral family
+- Llama family
+- DeepSeek family
+- Cohere family
+- xAI family
+- Perplexity models
+- Together-hosted popular open models
+
+Quality requirements:
+- Clean code
+- Reusable components
+- Fast loading
+- Good empty/loading/error states
+- No fake data disguised as real data
+- Easy to maintain and extend
+
+README requirements:
+- Explain how the data update system works
+- Explain the meaning of rate limit, context window, RPM, TPM, and pricing per 1M tokens
+- Explain how GitHub Actions updates the JSON daily
+- Explain how to deploy to GitHub Pages
+
+Output:
+- Full working app
+- JSON data pipeline
+- Hover tooltips for technical terms
+- GitHub Actions automation
+- GitHub Pages deployment setup
+- Complete README
