@@ -123,12 +123,12 @@ router.post("/add-review", async (req, res) => {
   }
 
   try {
-    const owner = getRequiredEnv("GITHUB_OWNER");
-    const repo = getRequiredEnv("GITHUB_REPO");
-    const token = getRequiredEnv("GITHUB_TOKEN");
-    const branch = process.env["GITHUB_BRANCH"] ?? "main";
+    const owner = getRequiredEnv("REVIEWS_GH_OWNER");
+    const repo = getRequiredEnv("REVIEWS_GH_REPO");
+    const token = getRequiredEnv("REVIEWS_GH_TOKEN");
+    const branch = process.env["REVIEWS_GH_BRANCH"] ?? "main";
     const contentPath =
-      process.env["GITHUB_MODELS_PATH"] ?? "public/data/models.json";
+      process.env["REVIEWS_MODELS_PATH"] ?? "public/data/models.json";
 
     const contentUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${contentPath}?ref=${branch}`;
 
