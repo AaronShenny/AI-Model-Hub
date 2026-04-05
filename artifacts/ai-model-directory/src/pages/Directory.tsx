@@ -106,9 +106,9 @@ export default function Directory({ compareIds, onToggleCompare }: Props) {
         return (a.context_window ?? Infinity) - (b.context_window ?? Infinity);
       }
 
-      const reasoningScore = { low: 1, medium: 2, high: 3 };
-      const aScore = reasoningScore[a.capabilities.reasoning_level] * 1_000_000 + (a.context_window ?? 0);
-      const bScore = reasoningScore[b.capabilities.reasoning_level] * 1_000_000 + (b.context_window ?? 0);
+      const reasoningScore: Record<string, number> = { low: 1, medium: 2, high: 3, unknown: 0 };
+      const aScore = (reasoningScore[a.capabilities.reasoning_level] ?? 0) * 1_000_000 + (a.context_window ?? 0);
+      const bScore = (reasoningScore[b.capabilities.reasoning_level] ?? 0) * 1_000_000 + (b.context_window ?? 0);
       return bScore - aScore;
     });
 

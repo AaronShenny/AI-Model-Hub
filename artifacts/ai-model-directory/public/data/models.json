@@ -35,7 +35,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "qwen-2-5-coder-32b",
@@ -73,7 +74,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "qwen-qwq-32b",
@@ -111,7 +113,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "claude-3-opus",
@@ -149,7 +152,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "claude-3-5-haiku",
@@ -187,7 +191,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "claude-3-5-sonnet",
@@ -225,7 +230,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "claude-3-7-sonnet",
@@ -263,7 +269,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "claude-3-7-sonnet",
@@ -301,7 +308,8 @@
     "last_verified": "2026-04-05",
     "source_url": null,
     "last_updated": "2026-04-05",
-    "notes": "Auto-discovered model. Needs manual verification."
+    "notes": "Auto-discovered model. Needs manual verification.",
+    "reviews": []
   },
   {
     "id": "claude-opus-4",
@@ -339,7 +347,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "claude-opus-4-1",
@@ -377,7 +386,8 @@
     "last_verified": "2026-04-05",
     "source_url": null,
     "last_updated": "2026-04-05",
-    "notes": "Auto-discovered model. Needs manual verification."
+    "notes": "Auto-discovered model. Needs manual verification.",
+    "reviews": []
   },
   {
     "id": "claude-sonnet-4",
@@ -415,7 +425,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "command-r",
@@ -453,7 +464,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "command-r-plus",
@@ -491,7 +503,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "deepseek-r1",
@@ -529,7 +542,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "deepseek-v3",
@@ -567,7 +581,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "gemini-1-5-flash",
@@ -605,7 +620,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "gemini-1-5-pro",
@@ -643,7 +659,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "gemini-2-0-flash",
@@ -681,7 +698,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "gemini-2-5-flash",
@@ -719,7 +737,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "gemini-2.5-flash",
@@ -757,7 +776,8 @@
     "last_verified": "2026-04-05",
     "source_url": null,
     "last_updated": "2026-04-05",
-    "notes": "Auto-discovered model. Needs manual verification."
+    "notes": "Auto-discovered model. Needs manual verification.",
+    "reviews": []
   },
   {
     "id": "gemini-2-5-pro",
@@ -795,7 +815,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "gemini-2.5-pro",
@@ -833,7 +854,8 @@
     "last_verified": "2026-04-05",
     "source_url": null,
     "last_updated": "2026-04-05",
-    "notes": "Auto-discovered model. Needs manual verification."
+    "notes": "Auto-discovered model. Needs manual verification.",
+    "reviews": []
   },
   {
     "id": "gemma-2-9b",
@@ -875,7 +897,8 @@
     "data_quality": "community",
     "availability": "open-source",
     "last_verified": "2024-06-01",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "gemma-3-27b",
@@ -917,7 +940,8 @@
     "data_quality": "community",
     "availability": "open-source",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "llama-3-1-405b",
@@ -959,7 +983,8 @@
     "data_quality": "community",
     "availability": "open-source",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "llama-3-2-11b-vision",
@@ -1001,7 +1026,8 @@
     "data_quality": "community",
     "availability": "open-source",
     "last_verified": "2024-09-25",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "llama-3-2-90b-vision",
@@ -1043,7 +1069,8 @@
     "data_quality": "community",
     "availability": "open-source",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "llama-3-3-70b",
@@ -1085,7 +1112,8 @@
     "data_quality": "community",
     "availability": "open-source",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "phi-3-5-mini",
@@ -1123,7 +1151,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2024-08-01",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "phi-4",
@@ -1161,7 +1190,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "codestral",
@@ -1199,7 +1229,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "mistral-large-2",
@@ -1237,7 +1268,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "mistral-nemo",
@@ -1275,7 +1307,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "mistral-small-3",
@@ -1313,7 +1346,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "nomic-embed-text",
@@ -1351,7 +1385,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2024-02-01",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "gpt-4-turbo",
@@ -1389,7 +1424,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "gpt-4.1",
@@ -1427,7 +1463,8 @@
     "last_verified": "2026-04-05",
     "source_url": null,
     "last_updated": "2026-04-05",
-    "notes": "Auto-discovered model. Needs manual verification."
+    "notes": "Auto-discovered model. Needs manual verification.",
+    "reviews": []
   },
   {
     "id": "gpt-4o",
@@ -1465,7 +1502,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "gpt-4o-mini",
@@ -1503,7 +1541,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "o1",
@@ -1541,7 +1580,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "o1-mini",
@@ -1579,7 +1619,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "o3",
@@ -1617,7 +1658,8 @@
     "last_verified": "2026-04-05",
     "source_url": null,
     "last_updated": "2026-04-05",
-    "notes": "Auto-discovered model. Needs manual verification."
+    "notes": "Auto-discovered model. Needs manual verification.",
+    "reviews": []
   },
   {
     "id": "o3-mini",
@@ -1655,7 +1697,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "o4-mini",
@@ -1693,7 +1736,8 @@
     "last_verified": "2026-04-05",
     "source_url": null,
     "last_updated": "2026-04-05",
-    "notes": "Auto-discovered model. Needs manual verification."
+    "notes": "Auto-discovered model. Needs manual verification.",
+    "reviews": []
   },
   {
     "id": "perplexity-sonar",
@@ -1731,7 +1775,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "perplexity-sonar-pro",
@@ -1769,7 +1814,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "perplexity-sonar-reasoning",
@@ -1807,7 +1853,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2025-01-01",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "nous-mixtral-8x22b",
@@ -1845,7 +1892,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2024-04-01",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "nous-hermes-3",
@@ -1887,7 +1935,8 @@
     "data_quality": "community",
     "availability": "open-source",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "grok-2-vision",
@@ -1925,7 +1974,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2024-12-12",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "grok-3",
@@ -1963,7 +2013,8 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   },
   {
     "id": "grok-3-mini",
@@ -2001,6 +2052,7 @@
     "data_quality": "estimated",
     "availability": "api",
     "last_verified": "2026-04-05",
-    "is_new": false
+    "is_new": false,
+    "reviews": []
   }
 ]
