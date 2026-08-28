@@ -305,7 +305,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.139Z",
+    "last_verified": "2026-08-28T03:39:24.370Z",
     "source_url": null,
     "last_updated": "2026-06-09",
     "notes": "Auto-discovered model. Needs verification."
@@ -343,7 +343,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.139Z",
+    "last_verified": "2026-08-28T03:39:24.370Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -459,7 +459,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.139Z",
+    "last_verified": "2026-08-28T03:39:24.370Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -497,7 +497,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.139Z",
+    "last_verified": "2026-08-28T03:39:24.370Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -535,7 +535,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.139Z",
+    "last_verified": "2026-08-28T03:39:24.370Z",
     "source_url": null,
     "last_updated": "2026-04-16",
     "notes": "Auto-discovered model. Needs verification."
@@ -573,7 +573,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.139Z",
+    "last_verified": "2026-08-28T03:39:24.370Z",
     "source_url": null,
     "last_updated": "2026-05-28",
     "notes": "Auto-discovered model. Needs verification."
@@ -611,7 +611,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.139Z",
+    "last_verified": "2026-08-28T03:39:24.370Z",
     "source_url": null,
     "last_updated": "2026-07-24",
     "notes": "Auto-discovered model. Needs verification."
@@ -688,7 +688,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.139Z",
+    "last_verified": "2026-08-28T03:39:24.370Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -726,7 +726,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.139Z",
+    "last_verified": "2026-08-28T03:39:24.370Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -764,7 +764,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.139Z",
+    "last_verified": "2026-08-28T03:39:24.370Z",
     "source_url": null,
     "last_updated": "2026-06-30",
     "notes": "Auto-discovered model. Needs verification."
@@ -957,7 +957,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.137Z",
+    "last_verified": "2026-08-28T03:39:24.368Z",
     "source_url": null,
     "last_updated": "2026-05-20",
     "notes": "Auto-discovered model. Needs verification."
@@ -995,7 +995,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.137Z",
+    "last_verified": "2026-08-28T03:39:24.368Z",
     "source_url": null,
     "last_updated": "2026-04-21",
     "notes": "Auto-discovered model. Needs verification."
@@ -1033,7 +1033,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.137Z",
+    "last_verified": "2026-08-28T03:39:24.368Z",
     "source_url": null,
     "last_updated": "2026-04-21",
     "notes": "Auto-discovered model. Needs verification."
@@ -1071,7 +1071,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.137Z",
+    "last_verified": "2026-08-28T03:39:24.368Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -1340,7 +1340,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.137Z",
+    "last_verified": "2026-08-28T03:39:24.368Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -1380,7 +1380,7 @@
     "notes": "Fast with thinking mode and 1M token context",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-08-26T22:26:01.133Z",
+    "last_verified": "2026-08-28T03:39:24.364Z",
     "is_new": false,
     "reviews": []
   },
@@ -1417,7 +1417,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.138Z",
+    "last_verified": "2026-08-28T03:39:24.369Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -1455,7 +1455,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.138Z",
+    "last_verified": "2026-08-28T03:39:24.369Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -1493,7 +1493,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.138Z",
+    "last_verified": "2026-08-28T03:39:24.370Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -1531,7 +1531,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.133Z",
+    "last_verified": "2026-08-28T03:39:24.364Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -1569,7 +1569,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.134Z",
+    "last_verified": "2026-08-28T03:39:24.365Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -1609,7 +1609,7 @@
     "notes": "Google's most capable model with 1M token context",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-08-26T22:26:01.133Z",
+    "last_verified": "2026-08-28T03:39:24.364Z",
     "is_new": false,
     "reviews": []
   },
@@ -1646,7 +1646,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.133Z",
+    "last_verified": "2026-08-28T03:39:24.364Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -1684,7 +1684,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.134Z",
+    "last_verified": "2026-08-28T03:39:24.365Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -1874,7 +1874,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.135Z",
+    "last_verified": "2026-08-28T03:39:24.365Z",
     "source_url": null,
     "last_updated": "2026-05-07",
     "notes": "Auto-discovered model. Needs verification."
@@ -1950,7 +1950,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.134Z",
+    "last_verified": "2026-08-28T03:39:24.365Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -2026,7 +2026,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.139Z",
+    "last_verified": "2026-08-28T03:39:24.370Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -2064,7 +2064,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.136Z",
+    "last_verified": "2026-08-28T03:39:24.367Z",
     "source_url": null,
     "last_updated": "2026-04-15",
     "notes": "Auto-discovered model. Needs verification."
@@ -2140,7 +2140,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.134Z",
+    "last_verified": "2026-08-28T03:39:24.365Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -2216,7 +2216,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.134Z",
+    "last_verified": "2026-08-28T03:39:24.365Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -2254,7 +2254,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.135Z",
+    "last_verified": "2026-08-28T03:39:24.366Z",
     "source_url": null,
     "last_updated": "2026-05-19",
     "notes": "Auto-discovered model. Needs verification."
@@ -2292,7 +2292,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.135Z",
+    "last_verified": "2026-08-28T03:39:24.366Z",
     "source_url": null,
     "last_updated": "2026-07-21",
     "notes": "Auto-discovered model. Needs verification."
@@ -2330,7 +2330,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.139Z",
+    "last_verified": "2026-08-28T03:39:24.370Z",
     "source_url": null,
     "last_updated": "2026-06-09",
     "notes": "Auto-discovered model. Needs verification."
@@ -2341,9 +2341,9 @@
     "model_name": "Gemini 3.5 Transcribe",
     "provider": "Google",
     "specialty": "Unverified",
-    "context_window": null,
+    "context_window": 98304,
     "data_quality": "unknown",
-    "is_new": true,
+    "is_new": false,
     "pricing": {
       "type": "unknown",
       "input_price_per_1m_tokens": null,
@@ -2368,7 +2368,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.136Z",
+    "last_verified": "2026-08-28T03:39:24.367Z",
     "source_url": null,
     "last_updated": "2026-08-26",
     "notes": "Auto-discovered model. Needs verification."
@@ -2379,9 +2379,9 @@
     "model_name": "Gemini 3.5 Transcribe Live",
     "provider": "Google",
     "specialty": "Unverified",
-    "context_window": null,
+    "context_window": 131072,
     "data_quality": "unknown",
-    "is_new": true,
+    "is_new": false,
     "pricing": {
       "type": "unknown",
       "input_price_per_1m_tokens": null,
@@ -2406,7 +2406,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.138Z",
+    "last_verified": "2026-08-28T03:39:24.369Z",
     "source_url": null,
     "last_updated": "2026-08-26",
     "notes": "Auto-discovered model. Needs verification."
@@ -2444,7 +2444,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.136Z",
+    "last_verified": "2026-08-28T03:39:24.367Z",
     "source_url": null,
     "last_updated": "2026-07-21",
     "notes": "Auto-discovered model. Needs verification."
@@ -2482,7 +2482,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.136Z",
+    "last_verified": "2026-08-28T03:39:24.367Z",
     "source_url": null,
     "last_updated": "2026-08-13",
     "notes": "Auto-discovered model. Needs verification."
@@ -2520,7 +2520,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.137Z",
+    "last_verified": "2026-08-28T03:39:24.368Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -2558,7 +2558,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.137Z",
+    "last_verified": "2026-08-28T03:39:24.368Z",
     "source_url": null,
     "last_updated": "2026-04-22",
     "notes": "Auto-discovered model. Needs verification."
@@ -2596,7 +2596,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.137Z",
+    "last_verified": "2026-08-28T03:39:24.368Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -2634,7 +2634,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.134Z",
+    "last_verified": "2026-08-28T03:39:24.364Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -2672,9 +2672,47 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.134Z",
+    "last_verified": "2026-08-28T03:39:24.365Z",
     "source_url": null,
     "last_updated": "2026-04-05",
+    "notes": "Auto-discovered model. Needs verification."
+  },
+  {
+    "id": "gemini-omni-1.1-flash",
+    "model_id": "gemini-omni-1.1-flash",
+    "model_name": "Gemini Omni 1.1 Flash",
+    "provider": "Google",
+    "specialty": "Unverified",
+    "context_window": null,
+    "data_quality": "unknown",
+    "is_new": true,
+    "pricing": {
+      "type": "unknown",
+      "input_price_per_1m_tokens": null,
+      "output_price_per_1m_tokens": null,
+      "note": "Not yet verified"
+    },
+    "rate_limits": {
+      "type": "unknown",
+      "rpm": null,
+      "tpm": null,
+      "rpd": null,
+      "note": "Not publicly defined"
+    },
+    "capabilities": {
+      "text": false,
+      "vision": false,
+      "audio": false,
+      "code": false,
+      "function_calling": false,
+      "reasoning_level": "unknown"
+    },
+    "availability": "api",
+    "best_for": null,
+    "reasoning_level": "unknown",
+    "last_verified": "2026-08-28T03:39:24.367Z",
+    "source_url": null,
+    "last_updated": "2026-08-28",
     "notes": "Auto-discovered model. Needs verification."
   },
   {
@@ -2710,7 +2748,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.135Z",
+    "last_verified": "2026-08-28T03:39:24.366Z",
     "source_url": null,
     "last_updated": "2026-06-30",
     "notes": "Auto-discovered model. Needs verification."
@@ -2748,7 +2786,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.134Z",
+    "last_verified": "2026-08-28T03:39:24.365Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -2824,7 +2862,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.136Z",
+    "last_verified": "2026-08-28T03:39:24.368Z",
     "source_url": null,
     "last_updated": "2026-04-14",
     "notes": "Auto-discovered model. Needs verification."
@@ -2862,7 +2900,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.136Z",
+    "last_verified": "2026-08-28T03:39:24.368Z",
     "source_url": null,
     "last_updated": "2026-07-30",
     "notes": "Auto-discovered model. Needs verification."
@@ -2900,7 +2938,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.139Z",
+    "last_verified": "2026-08-28T03:39:24.370Z",
     "source_url": null,
     "last_updated": "2026-07-30",
     "notes": "Auto-discovered model. Needs verification."
@@ -3214,7 +3252,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.133Z",
+    "last_verified": "2026-08-28T03:39:24.364Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -3252,7 +3290,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.134Z",
+    "last_verified": "2026-08-28T03:39:24.364Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -3404,7 +3442,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.136Z",
+    "last_verified": "2026-08-28T03:39:24.367Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -3480,7 +3518,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.136Z",
+    "last_verified": "2026-08-28T03:39:24.367Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -3556,7 +3594,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.137Z",
+    "last_verified": "2026-08-28T03:39:24.369Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -3594,7 +3632,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.134Z",
+    "last_verified": "2026-08-28T03:39:24.365Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -3632,7 +3670,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.135Z",
+    "last_verified": "2026-08-28T03:39:24.366Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -3670,7 +3708,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.135Z",
+    "last_verified": "2026-08-28T03:39:24.366Z",
     "source_url": null,
     "last_updated": "2026-07-01",
     "notes": "Auto-discovered model. Needs verification."
@@ -3708,7 +3746,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.135Z",
+    "last_verified": "2026-08-28T03:39:24.366Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -3974,7 +4012,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.138Z",
+    "last_verified": "2026-08-28T03:39:24.369Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -4012,7 +4050,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.138Z",
+    "last_verified": "2026-08-28T03:39:24.369Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -4050,7 +4088,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.138Z",
+    "last_verified": "2026-08-28T03:39:24.369Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -4533,7 +4571,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.108Z",
+    "last_verified": "2026-08-28T03:39:24.340Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -4571,7 +4609,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.131Z",
+    "last_verified": "2026-08-28T03:39:24.362Z",
     "source_url": null,
     "last_updated": "2026-05-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -4609,7 +4647,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.127Z",
+    "last_verified": "2026-08-28T03:39:24.357Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -4723,7 +4761,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.108Z",
+    "last_verified": "2026-08-28T03:39:24.339Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -4761,7 +4799,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.103Z",
+    "last_verified": "2026-08-28T03:39:24.338Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -4799,7 +4837,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.112Z",
+    "last_verified": "2026-08-28T03:39:24.343Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -4837,7 +4875,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.110Z",
+    "last_verified": "2026-08-28T03:39:24.342Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -4875,7 +4913,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.133Z",
+    "last_verified": "2026-08-28T03:39:24.339Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -4913,7 +4951,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.109Z",
+    "last_verified": "2026-08-28T03:39:24.340Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -4951,7 +4989,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.110Z",
+    "last_verified": "2026-08-28T03:39:24.341Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5028,7 +5066,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.117Z",
+    "last_verified": "2026-08-28T03:39:24.349Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs manual verification.",
@@ -5067,7 +5105,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.117Z",
+    "last_verified": "2026-08-28T03:39:24.348Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5105,7 +5143,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.118Z",
+    "last_verified": "2026-08-28T03:39:24.349Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5143,7 +5181,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.118Z",
+    "last_verified": "2026-08-28T03:39:24.349Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5181,7 +5219,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.118Z",
+    "last_verified": "2026-08-28T03:39:24.349Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5219,7 +5257,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.118Z",
+    "last_verified": "2026-08-28T03:39:24.349Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5259,7 +5297,7 @@
     "notes": "OpenAI's flagship multimodal model",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-08-26T22:26:01.112Z",
+    "last_verified": "2026-08-28T03:39:24.344Z",
     "is_new": false,
     "reviews": []
   },
@@ -5298,7 +5336,7 @@
     "notes": "Most affordable OpenAI model with vision",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-08-26T22:26:01.113Z",
+    "last_verified": "2026-08-28T03:39:24.344Z",
     "is_new": false,
     "reviews": []
   },
@@ -5335,7 +5373,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.112Z",
+    "last_verified": "2026-08-28T03:39:24.344Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5373,7 +5411,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.113Z",
+    "last_verified": "2026-08-28T03:39:24.345Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5411,7 +5449,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.115Z",
+    "last_verified": "2026-08-28T03:39:24.347Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5563,7 +5601,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.112Z",
+    "last_verified": "2026-08-28T03:39:24.344Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5677,7 +5715,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.116Z",
+    "last_verified": "2026-08-28T03:39:24.347Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5715,7 +5753,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.115Z",
+    "last_verified": "2026-08-28T03:39:24.347Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5753,7 +5791,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.116Z",
+    "last_verified": "2026-08-28T03:39:24.348Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5791,7 +5829,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.126Z",
+    "last_verified": "2026-08-28T03:39:24.357Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5829,7 +5867,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.126Z",
+    "last_verified": "2026-08-28T03:39:24.356Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5867,7 +5905,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.116Z",
+    "last_verified": "2026-08-28T03:39:24.348Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5905,7 +5943,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.126Z",
+    "last_verified": "2026-08-28T03:39:24.357Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5943,7 +5981,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.126Z",
+    "last_verified": "2026-08-28T03:39:24.357Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -5981,7 +6019,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.128Z",
+    "last_verified": "2026-08-28T03:39:24.358Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6019,7 +6057,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.128Z",
+    "last_verified": "2026-08-28T03:39:24.359Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6057,7 +6095,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.116Z",
+    "last_verified": "2026-08-28T03:39:24.348Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6095,7 +6133,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.119Z",
+    "last_verified": "2026-08-28T03:39:24.350Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6133,7 +6171,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.119Z",
+    "last_verified": "2026-08-28T03:39:24.350Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6171,7 +6209,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.119Z",
+    "last_verified": "2026-08-28T03:39:24.350Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6209,7 +6247,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.119Z",
+    "last_verified": "2026-08-28T03:39:24.350Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6247,7 +6285,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.121Z",
+    "last_verified": "2026-08-28T03:39:24.352Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6285,7 +6323,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.120Z",
+    "last_verified": "2026-08-28T03:39:24.351Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6323,7 +6361,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.119Z",
+    "last_verified": "2026-08-28T03:39:24.350Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6361,7 +6399,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.120Z",
+    "last_verified": "2026-08-28T03:39:24.351Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6399,7 +6437,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.120Z",
+    "last_verified": "2026-08-28T03:39:24.351Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6437,7 +6475,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.121Z",
+    "last_verified": "2026-08-28T03:39:24.353Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6475,7 +6513,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.121Z",
+    "last_verified": "2026-08-28T03:39:24.352Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6513,7 +6551,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.122Z",
+    "last_verified": "2026-08-28T03:39:24.353Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6551,7 +6589,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.123Z",
+    "last_verified": "2026-08-28T03:39:24.354Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6589,7 +6627,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.124Z",
+    "last_verified": "2026-08-28T03:39:24.354Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6627,7 +6665,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.123Z",
+    "last_verified": "2026-08-28T03:39:24.354Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6665,7 +6703,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.123Z",
+    "last_verified": "2026-08-28T03:39:24.354Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6703,7 +6741,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.124Z",
+    "last_verified": "2026-08-28T03:39:24.354Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6741,7 +6779,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.124Z",
+    "last_verified": "2026-08-28T03:39:24.355Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6779,7 +6817,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.124Z",
+    "last_verified": "2026-08-28T03:39:24.355Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6817,7 +6855,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.125Z",
+    "last_verified": "2026-08-28T03:39:24.356Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6855,7 +6893,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.125Z",
+    "last_verified": "2026-08-28T03:39:24.355Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6893,7 +6931,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.126Z",
+    "last_verified": "2026-08-28T03:39:24.356Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6931,7 +6969,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.127Z",
+    "last_verified": "2026-08-28T03:39:24.358Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -6969,7 +7007,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.125Z",
+    "last_verified": "2026-08-28T03:39:24.356Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7007,7 +7045,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.125Z",
+    "last_verified": "2026-08-28T03:39:24.356Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7045,7 +7083,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.128Z",
+    "last_verified": "2026-08-28T03:39:24.359Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7083,7 +7121,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.127Z",
+    "last_verified": "2026-08-28T03:39:24.358Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7121,7 +7159,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.129Z",
+    "last_verified": "2026-08-28T03:39:24.360Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7159,7 +7197,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.128Z",
+    "last_verified": "2026-08-28T03:39:24.359Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7197,7 +7235,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.130Z",
+    "last_verified": "2026-08-28T03:39:24.360Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7235,7 +7273,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.130Z",
+    "last_verified": "2026-08-28T03:39:24.360Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7273,7 +7311,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.129Z",
+    "last_verified": "2026-08-28T03:39:24.360Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7311,7 +7349,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.129Z",
+    "last_verified": "2026-08-28T03:39:24.360Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7349,7 +7387,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.129Z",
+    "last_verified": "2026-08-28T03:39:24.359Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7387,7 +7425,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.129Z",
+    "last_verified": "2026-08-28T03:39:24.359Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7425,7 +7463,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.130Z",
+    "last_verified": "2026-08-28T03:39:24.361Z",
     "source_url": null,
     "last_updated": "2026-04-24",
     "notes": "Auto-discovered model. Needs verification."
@@ -7463,7 +7501,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.131Z",
+    "last_verified": "2026-08-28T03:39:24.361Z",
     "source_url": null,
     "last_updated": "2026-04-24",
     "notes": "Auto-discovered model. Needs verification."
@@ -7501,7 +7539,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.131Z",
+    "last_verified": "2026-08-28T03:39:24.361Z",
     "source_url": null,
     "last_updated": "2026-04-24",
     "notes": "Auto-discovered model. Needs verification."
@@ -7539,7 +7577,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.131Z",
+    "last_verified": "2026-08-28T03:39:24.361Z",
     "source_url": null,
     "last_updated": "2026-04-24",
     "notes": "Auto-discovered model. Needs verification."
@@ -7577,7 +7615,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.105Z",
+    "last_verified": "2026-08-28T03:39:24.363Z",
     "source_url": null,
     "last_updated": "2026-07-10",
     "notes": "Auto-discovered model. Needs verification."
@@ -7615,7 +7653,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.132Z",
+    "last_verified": "2026-08-28T03:39:24.362Z",
     "source_url": null,
     "last_updated": "2026-07-10",
     "notes": "Auto-discovered model. Needs verification."
@@ -7653,7 +7691,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.132Z",
+    "last_verified": "2026-08-28T03:39:24.363Z",
     "source_url": null,
     "last_updated": "2026-07-10",
     "notes": "Auto-discovered model. Needs verification."
@@ -7691,7 +7729,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.121Z",
+    "last_verified": "2026-08-28T03:39:24.352Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7729,7 +7767,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.128Z",
+    "last_verified": "2026-08-28T03:39:24.358Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7767,7 +7805,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.120Z",
+    "last_verified": "2026-08-28T03:39:24.351Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7805,7 +7843,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.122Z",
+    "last_verified": "2026-08-28T03:39:24.353Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7843,7 +7881,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.122Z",
+    "last_verified": "2026-08-28T03:39:24.353Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7881,7 +7919,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.127Z",
+    "last_verified": "2026-08-28T03:39:24.357Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7919,7 +7957,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.118Z",
+    "last_verified": "2026-08-28T03:39:24.349Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7957,7 +7995,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.121Z",
+    "last_verified": "2026-08-28T03:39:24.352Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -7995,7 +8033,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.125Z",
+    "last_verified": "2026-08-28T03:39:24.355Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -8033,7 +8071,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.130Z",
+    "last_verified": "2026-08-28T03:39:24.361Z",
     "source_url": null,
     "last_updated": "2026-04-21",
     "notes": "Auto-discovered model. Needs verification."
@@ -8071,7 +8109,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.130Z",
+    "last_verified": "2026-08-28T03:39:24.361Z",
     "source_url": null,
     "last_updated": "2026-04-21",
     "notes": "Auto-discovered model. Needs verification."
@@ -8109,7 +8147,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.104Z",
+    "last_verified": "2026-08-28T03:39:24.364Z",
     "source_url": null,
     "last_updated": "2026-07-28",
     "notes": "Auto-discovered model. Needs verification."
@@ -8147,7 +8185,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.120Z",
+    "last_verified": "2026-08-28T03:39:24.351Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -8185,7 +8223,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.127Z",
+    "last_verified": "2026-08-28T03:39:24.358Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -8223,7 +8261,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.132Z",
+    "last_verified": "2026-08-28T03:39:24.362Z",
     "source_url": null,
     "last_updated": "2026-05-07",
     "notes": "Auto-discovered model. Needs verification."
@@ -8261,7 +8299,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.106Z",
+    "last_verified": "2026-08-28T03:39:24.363Z",
     "source_url": null,
     "last_updated": "2026-07-07",
     "notes": "Auto-discovered model. Needs verification."
@@ -8299,7 +8337,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.107Z",
+    "last_verified": "2026-08-28T03:39:24.363Z",
     "source_url": null,
     "last_updated": "2026-07-07",
     "notes": "Auto-discovered model. Needs verification."
@@ -8337,7 +8375,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.121Z",
+    "last_verified": "2026-08-28T03:39:24.352Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -8375,7 +8413,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.122Z",
+    "last_verified": "2026-08-28T03:39:24.353Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -8451,7 +8489,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.126Z",
+    "last_verified": "2026-08-28T03:39:24.357Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -8489,7 +8527,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.131Z",
+    "last_verified": "2026-08-28T03:39:24.362Z",
     "source_url": null,
     "last_updated": "2026-05-07",
     "notes": "Auto-discovered model. Needs verification."
@@ -8527,7 +8565,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.132Z",
+    "last_verified": "2026-08-28T03:39:24.362Z",
     "source_url": null,
     "last_updated": "2026-05-07",
     "notes": "Auto-discovered model. Needs verification."
@@ -8565,7 +8603,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.107Z",
+    "last_verified": "2026-08-28T03:39:24.363Z",
     "source_url": null,
     "last_updated": "2026-07-28",
     "notes": "Auto-discovered model. Needs verification."
@@ -8605,7 +8643,7 @@
     "notes": "OpenAI's most powerful reasoning model",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-08-26T22:26:01.114Z",
+    "last_verified": "2026-08-28T03:39:24.346Z",
     "is_new": false,
     "reviews": []
   },
@@ -8642,7 +8680,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.114Z",
+    "last_verified": "2026-08-28T03:39:24.346Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -8719,7 +8757,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.117Z",
+    "last_verified": "2026-08-28T03:39:24.348Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs manual verification.",
@@ -8758,7 +8796,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.116Z",
+    "last_verified": "2026-08-28T03:39:24.348Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -8798,7 +8836,7 @@
     "notes": "Efficient reasoning model in the o3 family",
     "data_quality": "estimated",
     "availability": "api",
-    "last_verified": "2026-08-26T22:26:01.114Z",
+    "last_verified": "2026-08-28T03:39:24.346Z",
     "is_new": false,
     "reviews": []
   },
@@ -8835,7 +8873,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.114Z",
+    "last_verified": "2026-08-28T03:39:24.347Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -8873,7 +8911,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.117Z",
+    "last_verified": "2026-08-28T03:39:24.348Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs manual verification.",
@@ -8912,7 +8950,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.117Z",
+    "last_verified": "2026-08-28T03:39:24.348Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -8950,7 +8988,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.113Z",
+    "last_verified": "2026-08-28T03:39:24.345Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -8988,7 +9026,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.113Z",
+    "last_verified": "2026-08-28T03:39:24.345Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -9026,7 +9064,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.123Z",
+    "last_verified": "2026-08-28T03:39:24.353Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -9064,7 +9102,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.123Z",
+    "last_verified": "2026-08-28T03:39:24.353Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -9102,7 +9140,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.111Z",
+    "last_verified": "2026-08-28T03:39:24.343Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -9140,7 +9178,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.111Z",
+    "last_verified": "2026-08-28T03:39:24.343Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -9178,7 +9216,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.133Z",
+    "last_verified": "2026-08-28T03:39:24.336Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -9216,7 +9254,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.133Z",
+    "last_verified": "2026-08-28T03:39:24.338Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -9254,7 +9292,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.111Z",
+    "last_verified": "2026-08-28T03:39:24.342Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -9292,7 +9330,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.110Z",
+    "last_verified": "2026-08-28T03:39:24.342Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -9330,7 +9368,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.111Z",
+    "last_verified": "2026-08-28T03:39:24.343Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
@@ -9368,7 +9406,7 @@
     "availability": "api",
     "best_for": null,
     "reasoning_level": "unknown",
-    "last_verified": "2026-08-26T22:26:01.132Z",
+    "last_verified": "2026-08-28T03:39:24.338Z",
     "source_url": null,
     "last_updated": "2026-04-05",
     "notes": "Auto-discovered model. Needs verification."
